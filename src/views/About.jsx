@@ -49,13 +49,13 @@ class About extends Component {
             <ListGroup>
               <ListGroupItem>
               <CardTitle>Web Development</CardTitle>
-                <CardSubtitle>16 Month 2017-2019</CardSubtitle>
+            <CardSubtitle>1-year course 2017-2019</CardSubtitle>
               DCI Digital Career Institute GmbH, Berlin
               </ListGroupItem>
               <ListGroupItem>
               <CardTitle>Professional Mentoring program (SINGA Deutschland)</CardTitle>
                 <CardSubtitle>2016</CardSubtitle>
-                Berlin 
+                Berlin
               </ListGroupItem>
               <ListGroupItem>
               <CardTitle>Business Writing Skills</CardTitle>

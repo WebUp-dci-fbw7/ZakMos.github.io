@@ -13,11 +13,15 @@ class Home extends Component {
         <CardImg top width="100%" src={personalPic} alt="Zakaria's-pic" />
       </Media>
       <Media body className="ml-3">
-        <Media heading>
-          Zakaria's Website
+        <h2 heading>
+          Welcome to my Portfolio, :)
+        </h2>
+        <h4>
+            I am studying Web Development in a one-year course. Currently I am looking for new challenges.
+            I have more than 16 years experience background in IT, Marketing, PR and office fields as Technical coordinator,
+            Creativity, motivation, adopting quickly with job or new environment and learning quickly.
+          </h4>
         </Media>
-        Welcome to my Portfolio, :)
-      </Media>
     </Media>
   );
   }
