@@ -11,7 +11,7 @@
 	"description":"A list of students in my class",
 	"imageUrl":"/images/student800x600.jpg",
 	"thumbnailUrl":"/images/studentRoster200-200.jpg",
-	"projectUrl":"https://github.com/WebUp-dci-fbw7/student-roster",
+	"projectUrl":"https://github.com/ZakMos/student-roster",
 	"tags":["html","css","javascript","DOM"]
 },
 {	"title":"Guessing Game",
