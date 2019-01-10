@@ -17,7 +17,7 @@ class Home extends Component {
           Welcome to my Portfolio, :)
         </h2>
         <h4>
-            I am studying Web Development in a one-year course. Currently I am looking for new challenges.
+            I have just completed a one-year Web Development course. Currently I am looking for new challenges.
             I have more than 16 years experience background in IT, Marketing, PR and office fields as Technical coordinator,
             Creativity, motivation, adopting quickly with job or new environment and learning quickly.
           </h4>
