@@ -2,16 +2,16 @@
 [
 {	"title":"Quizzards",
 	"description":"A small quiz app",
-	"imageUrl":"https://via.placeholder.com/800x600",
-	"thumbnailUrl":"https://via.placeholder.com/200x200",
+	"imageUrl":"/images/Quizzard800-600.png",
+	"thumbnailUrl":"/images/quizzard200-200.png",
 	"projectUrl":"https://github.com/WebUp-dci-fbw7/quizzards",
 	"tags":["OOP","javascript","bootstrap","sass","css","html"
 ]},
 {	"title":"Student Roster",
 	"description":"A list of students in my class",
-	"imageUrl":"https://via.placeholder.com/800x600",
+	"imageUrl":"/images/student800x600.jpg",
 	"thumbnailUrl":"/images/studentRoster200-200.jpg",
-	"projectUrl":"https://github.com/WebUp-dci-fbw7/student-roster",
+	"projectUrl":"https://github.com/ZakMos/student-roster",
 	"tags":["html","css","javascript","DOM"]
 },
 {	"title":"Guessing Game",
@@ -31,7 +31,7 @@
 {	"title":"Dicey dice",
 	"description":"Dicey dice",
 	"imageUrl":"/images/dice-800-600.jpg",
-	"thumbnailUrl":"/images/dice-200*200.jpg",
+	"thumbnailUrl":"/images/dice-200_200.jpg",
 	"projectUrl":"https://github.com/ZakMos/dicey",
 	"tags":["jsx","css","javascript"]
 }]

@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import { Card, CardImg, CardTitle, CardSubtitle, CardDeck, CardBody, CardFooter, ListGroup, ListGroupItem } from 'reactstrap';
 import experience from '../images/experience.jpg';
-import training from '../images/training.jpg';
-import languages from '../images/languages.jpg';
+import training from '../images/training1.jpg';
+import languages from '../images/language1.jpg';
 
 class About extends Component {
   componentDidMount(){
@@ -39,34 +39,46 @@ class About extends Component {
               </ListGroup>
           </CardBody>
           <CardFooter className="text-muted">
-            <small>Last updated 3 mins ago</small>
+            <small>Last updated 09-01-2019</small>
           </CardFooter>
         </Card>
         <Card>
-          <CardImg top width="100%" src={training} alt="Card image cap" />
+          <CardImg top width="100%" height="265" src={training} alt="Card image cap" />
           <CardBody>
             <CardTitle>Training</CardTitle>
             <ListGroup>
               <ListGroupItem>
               <CardTitle>Web Development</CardTitle>
-              <CardSubtitle>16 Month 2017-2019</CardSubtitle>
-                DCI Digital Career Institute  Berlin-Germany
+            <CardSubtitle>1-year course 2017-2019</CardSubtitle>
+              DCI Digital Career Institute GmbH, Berlin
               </ListGroupItem>
               <ListGroupItem>
-              <CardTitle>Social Media</CardTitle>
-              <CardSubtitle>2010</CardSubtitle>
+              <CardTitle>Professional Mentoring program (SINGA Deutschland)</CardTitle>
+                <CardSubtitle>2016</CardSubtitle>
+                Berlin
+              </ListGroupItem>
+              <ListGroupItem>
+              <CardTitle>Business Writing Skills</CardTitle>
+                <CardSubtitle>2012</CardSubtitle>
+                Riyadh - Saudi Arabia
+              </ListGroupItem>
+              <ListGroupItem>
+              <CardTitle>How to deal with electronic media</CardTitle>
+                <CardSubtitle>2011</CardSubtitle>
                 Riyadh - Saudi Arabia
               </ListGroupItem>
               <ListGroupItem>
               <CardTitle>Presentation Skills</CardTitle>
-              <CardSubtitle>2011</CardSubtitle>
+                <CardSubtitle>2010</CardSubtitle>
                 Riyadh - Saudi Arabia
               </ListGroupItem>
+
+
             </ListGroup>
 
           </CardBody>
           <CardFooter className="text-muted">
-            <small>Last updated 3 mins ago</small>
+            <small>Last updated 09-01-2019</small>
           </CardFooter>
         </Card>
         <Card>
@@ -82,7 +94,7 @@ class About extends Component {
                 </ListGroup>
           </CardBody>
           <CardFooter className="text-muted">
-            <small>Last updated 3 mins ago</small>
+            <small>Last updated 09-01-2019</small>
           </CardFooter>
         </Card>
       </CardDeck>
