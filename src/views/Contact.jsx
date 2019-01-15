@@ -44,25 +44,29 @@ class Contact extends Component {
           <Button color="info" type="submit" value="Send">Submit Form</Button>
         </Form>
 
-        <section className="container mt-5">
+        <section className="container mt-5 justify-content-center">
           <h2 className="justify-content-center d-flex">Contact details</h2>
-          <div className="justify-content-center d-flex mt-5">
-              <ul className="list-unstyled list-inline-item justify-content-center">
-                <li className="list-inline-item justify-content-center">
-                  <span><img src={address} alt="Address" width="20%" height="20%"/>Address</span>
-                  <div><p>Vulkanstrase 1 12399 Berlin</p></div>
+          <div className="justify-content-center">
+              <ul className="justify-content-center d-flex mt-5">
+                <li className="list-inline-item">
+                  <p>Address</p>
+                  <img src={address} alt="Address" width="20%" height="20%"/>
+                  <p>Vulkanstrase 1 12399 Berlin</p>
                 </li>
                 <li className="list-inline-item">
-                  <div><img src={iconContact} alt="Phone-png" width="20%" height="20%"/>Phone</div>
-                  <div><p>004900000000</p></div>
+                  <p>Phone</p>
+                  <img src={iconContact} alt="Phone-png" width="20%" height="20%"/>
+                  <p>004900000000</p>
                 </li>
                 <li className="list-inline-item">
-                  <div><img src={emailIcon} alt="Email-Icon" width="20%" height="20%"/>E-Mail</div>
-                  <div><a href="mailto:z.zza@hotmail.com?subject=feedback"></a></div>
+                    <p>E-Mail</p>
+                    <a href="mailto:z.zza@hotmail.com?subject=feedback"><img src={emailIcon} alt="Email-Icon" width="20%" height="20%"/></a>
+                    <p>.....</p>
                 </li>
               </ul>
             </div>
         </section>
+
 
         <section className="container  mt-5">
           <h3 className="justify-content-center d-flex">Follow me</h3>
