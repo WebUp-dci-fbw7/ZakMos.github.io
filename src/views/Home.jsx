@@ -8,7 +8,7 @@ class Home extends Component {
     document.title = 'Home | Zakaria\'s website';
   }
   render() {
-    return (
+    return ( 
        <div className="center">
         <Jumbotron>
           <h2 className="display-3 text-center">
