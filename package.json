@@ -24,7 +24,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "build-css": "node-sass-chokidar src/sass -o src/styles",
     "watch-css": "npm run build-css && node-sass-chokidar src/sass -o src/styles --watch --recursive",
     "start": "npm-run-all -p watch-css start-js",
