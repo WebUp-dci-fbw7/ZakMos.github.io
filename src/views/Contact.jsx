@@ -7,10 +7,6 @@ import { faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
 import { faFacebookSquare } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
-import address from '../images/address.png';
-import iconContact from '../images/icon-contact.png';
-import emailIcon from '../images/Email-Icon.png';
-
 
 class Contact extends Component {
   componentDidMount() {
@@ -46,22 +42,25 @@ class Contact extends Component {
 
         <section className="container mt-5 justify-content-center">
           <h2 className="justify-content-center d-flex">Contact details</h2>
-          <div className="justify-content-center">
+          <div className="">
               <ul className="justify-content-center d-flex mt-5">
                 <li className="list-inline-item">
-                  <p>Address</p>
-                  <img src={address} alt="Address" width="20%" height="20%"/>
-                  <p>Vulkanstrase 1 12399 Berlin</p>
+                <a href="https://www.google.com/maps/place/Vulkanstraße+1+10367+Berlin" target="_blank" rel="noopener noreferrer">
+                <button type="button" className="btn btn-primary">
+                <i className="fas fa-envelope pr-1"></i>
+                Address</button></a>
                 </li>
                 <li className="list-inline-item">
-                  <p>Phone</p>
-                  <img src={iconContact} alt="Phone-png" width="20%" height="20%"/>
-                  <p>004900000000</p>
+                  <a href="tel:004930000000">
+                  <button type="button" className="btn btn-primary">
+                  <i className="fas fa-envelope pr-1"></i>
+                  Phone</button></a>
                 </li>
                 <li className="list-inline-item">
-                    <p>E-Mail</p>
-                    <a href="mailto:z.zza@hotmail.com?subject=feedback"><img src={emailIcon} alt="Email-Icon" width="20%" height="20%"/></a>
-                    <p>.....</p>
+                    <a href="mailto:z.zza@hotmail.com?subject=feedback">
+                    <button type="button" className="btn btn-primary btn-email">
+                    <i className="fas fa-enveloper pr-1">
+                    </i> Email</button></a>
                 </li>
               </ul>
             </div>

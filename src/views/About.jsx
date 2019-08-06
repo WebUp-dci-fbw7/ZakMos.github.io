@@ -39,7 +39,7 @@ class About extends Component {
               </ListGroup>
           </CardBody>
           <CardFooter className="text-muted">
-            <small>Last updated 09-01-2019</small>
+            <small>last updated 06-08-2019</small>
           </CardFooter>
         </Card>
         <Card>
@@ -78,7 +78,7 @@ class About extends Component {
 
           </CardBody>
           <CardFooter className="text-muted">
-            <small>Last updated 09-01-2019</small>
+            <small>last updated 06-08-2019</small>
           </CardFooter>
         </Card>
         <Card>
@@ -94,7 +94,7 @@ class About extends Component {
                 </ListGroup>
           </CardBody>
           <CardFooter className="text-muted">
-            <small>Last updated 09-01-2019</small>
+            <small>last updated 06-08-2019</small>
           </CardFooter>
         </Card>
       </CardDeck>
