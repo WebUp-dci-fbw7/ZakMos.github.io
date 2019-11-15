@@ -17,7 +17,7 @@ class About extends Component {
             <CardTitle>Experience</CardTitle>
               <ListGroup>
                 <ListGroupItem>
-                  <CardTitle>Office General Manager</CardTitle>
+                  <CardTitle>Office GM Executive Secretary </CardTitle>
                     <CardSubtitle>2011-2015</CardSubtitle>
                     (External investment Dept.) in The National Agricultural Dev. Co NADEC / Riyadh - Saudi Arabia
                 </ListGroupItem>
