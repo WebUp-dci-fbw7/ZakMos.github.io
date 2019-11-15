@@ -17,25 +17,25 @@ class About extends Component {
             <CardTitle>Experience</CardTitle>
               <ListGroup>
                 <ListGroupItem>
-                  <CardTitle>IT helpdesk</CardTitle>
-                  <CardSubtitle>1997-2001</CardSubtitle>
-                  (Al-Zahara for Computer) / Aleppo - Syria
-                </ListGroupItem>
-                <ListGroupItem>
-                  <CardTitle>Technical Coordinator</CardTitle>
-                <CardSubtitle>2001-2009</CardSubtitle>
-                   (Agri Sector) in The National Agricultural Dev. Co NADEC / Riyadh - Saudi Arabia
+                  <CardTitle>Office General Manager</CardTitle>
+                    <CardSubtitle>2011-2015</CardSubtitle>
+                    (External investment Dept.) in The National Agricultural Dev. Co NADEC / Riyadh - Saudi Arabia
                 </ListGroupItem>
                 <ListGroupItem>
                   <CardTitle>Public Relation Officer</CardTitle>
-                <CardSubtitle>2009-2011</CardSubtitle>
+                    <CardSubtitle>2009-2011</CardSubtitle>
                     (Marketing and P.R Dept.) in The National Agricultural Dev. Co NADEC / Riyadh - Saudi Arabia
                 </ListGroupItem>
                 <ListGroupItem>
-                  <CardTitle>Office General Manager</CardTitle>
-                <CardSubtitle>2011-2015</CardSubtitle>
-                    (External investment Dept.) in The National Agricultural Dev. Co NADEC / Riyadh - Saudi Arabia
-                  </ListGroupItem>
+                  <CardTitle>Technical Coordinator</CardTitle>
+                  <CardSubtitle>2001-2009</CardSubtitle>
+                    (Agri Sector) in The National Agricultural Dev. Co NADEC / Riyadh - Saudi Arabia
+                </ListGroupItem>
+                <ListGroupItem>
+                  <CardTitle>IT helpdesk</CardTitle>
+                    <CardSubtitle>1997-2001</CardSubtitle>
+                      (Al-Zahara for Computer) / Aleppo - Syria
+                </ListGroupItem>
               </ListGroup>
           </CardBody>
           <CardFooter className="text-muted">
