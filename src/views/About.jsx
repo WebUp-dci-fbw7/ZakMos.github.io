@@ -78,7 +78,7 @@ class About extends Component {
 
           </CardBody>
           <CardFooter className="text-muted">
-            <small>last updated 06-08-2019</small>
+            <small>last updated 15-11-2019</small>
           </CardFooter>
         </Card>
         <Card>
@@ -86,15 +86,15 @@ class About extends Component {
           <CardBody>
             <CardTitle>Languages</CardTitle>
               <ListGroup>
+                <ListGroupItem>Germany: B1</ListGroupItem>
+                <ListGroupItem>English: Fluent</ListGroupItem>
                 <ListGroupItem>Kurdish: Mother Languages</ListGroupItem>
                 <ListGroupItem>Arabic: Fluent</ListGroupItem>
-                <ListGroupItem>English: Fluent</ListGroupItem>
-                <ListGroupItem>Germany: B1</ListGroupItem>
                 <ListGroupItem>Turkish: Average</ListGroupItem>
                 </ListGroup>
           </CardBody>
           <CardFooter className="text-muted">
-            <small>last updated 06-08-2019</small>
+            <small>last updated 15-11-2019</small>
           </CardFooter>
         </Card>
       </CardDeck>

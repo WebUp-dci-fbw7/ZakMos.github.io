@@ -83,7 +83,7 @@ class Contact extends Component {
                 <FontAwesomeIcon icon={faFacebookSquare} size="3x"></FontAwesomeIcon></a>
               </li>
               <li className="list-inline-item">
-                <a href="https://de.linkedin.com/in/zakaria-moslim" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/zakmos" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faLinkedin} size="3x"></FontAwesomeIcon></a>
               </li>
             </ul>
