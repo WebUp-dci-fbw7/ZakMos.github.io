@@ -11,7 +11,7 @@
 	"description":"A small quiz app",
 	"imageUrl":"/images/Quizzard800-600.png",
 	"thumbnailUrl":"/images/quizzard200-200.png",
-	"projectUrl":"https://github.com/WebUp-dci-fbw7/quizzards",
+	"projectUrl":"https://github.com/ZakMos/quizzards",
 	"tags":["OOP","javascript","bootstrap","sass","css","html"
 ]},
 {	"title":"Student Roster",
