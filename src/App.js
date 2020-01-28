@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
+import Main from './views/Main';
 import Home from './views/Home';
 import About from './views/About';
 import NotFound from './views/NotFound';
@@ -15,30 +16,25 @@ import Footer from './components/Footer';
 class App extends Component {
   render() {
     return (
-        <BrowserRouter>
+        <Router>
           <Fragment>
             <Header/>
-            <main>
-              <Switch>
-                <Route exact path="/" component={Home} />
-                <Route exact path="/about" component={About} />
-                <Route exact path="/projects" component={Projects} />
-                <Route path="/projects/:id" component={SingleProject} />
-                <Route exact path="/contact" component={Contact} />
-                <Route component={NotFound} />
-              </Switch>
-            </main>
+              <main>
+                <Switch>
+                  <Route exact path="/" component={Main} />
+                  <Route exact path = "/Home" component = {Home} />
+                  <Route exact path="/about" component={About} />
+                  <Route exact path="/projects" component={Projects} />
+                  <Route path="/projects/:id" component={SingleProject} />
+                  <Route exact path="/contact" component={Contact} />
+                  <Route component={NotFound} />
+                </Switch>
+              </main>
             <Footer />
           </Fragment>
-        </BrowserRouter>
-
+        </Router>
     );
   }
 }
 
 export default App;
-
-
-
-// WEBPACK FOOTER //
-// src/App.js

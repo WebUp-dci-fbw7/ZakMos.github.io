@@ -1,15 +1,21 @@
-import React, {Component} from 'react';
+import React, {Component, Fragment} from 'react';
 import { Card, CardImg, CardTitle, CardSubtitle, CardDeck, CardBody, CardFooter, ListGroup, ListGroupItem } from 'reactstrap';
 import experience from '../images/experience.jpg';
 import training from '../images/training1.jpg';
 import languages from '../images/language1.jpg';
 
 class About extends Component {
-  componentDidMount(){
+  componentDidMount() {
     document.title = 'About | Zakaria\'s website';
+  }
+  constructor(props) {
+    super(props)
+      this.about = React.createRef()
   }
   render() {
     return (
+      <Fragment>
+      <div ref={this.about} id="about"></div>
       <CardDeck>
         <Card>
           <CardImg top width="100%" src={experience} alt="Card image cap" />
@@ -98,6 +104,7 @@ class About extends Component {
           </CardFooter>
         </Card>
       </CardDeck>
+      </Fragment>
     );
   }
 }

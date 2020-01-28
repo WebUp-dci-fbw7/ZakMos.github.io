@@ -15,6 +15,8 @@ class Contact extends Component {
   render() {
     return (
       <Fragment>
+        <div ref={this.about} id="contact"></div>
+
         <Form className="container mt-5" action="https://formspree.io/z.zza@hotmail.com" method="POST" >
           <FormGroup className="row mb-3 mb-sm-0">
             <Col>
