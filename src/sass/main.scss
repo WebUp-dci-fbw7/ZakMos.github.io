@@ -2,12 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
 @import url('https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css');
 
-
+// === Start === Default Dom Setting ==== // 
 #root {
   @include make-container();
   margin-top: 0.5rem;
 }
-
 
 html {
   position: relative;
@@ -19,17 +18,38 @@ main {
   font-family: "Ubuntu Mono", "Lucida Console","Lucida Sans Typewriter",monaco,"Bitstream Vera Sans Mono",monospace;
 }
 
+// === End === Default Dom Setting ==== // 
 
+
+// === Start === Header ==== // 
+
+a {
+  text-decoration: none;
+}
+// === End === Header ==== // 
+
+
+
+// === Start === NotFound Page ==== // 
 .not-found {
   background-color: red;
   color: white;
   text-align: center;
 }
 
+// === End === NotFound Page ==== // 
+
+// === Start === Home Page ==== // 
+
 .personal-img {
   width: 200px;
   height: 200px;
 }
+
+// === End === NotFound Page ==== // 
+
+
+// === Start === Footer ==== // 
 
 footer p {
     position: absolute;
@@ -40,3 +60,5 @@ footer p {
     line-height: 20px;
     text-align: center;
 }
+
+// === End === Footer ==== // 
