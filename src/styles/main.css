@@ -7156,8 +7156,23 @@ main {
   min-height: 100vh;
   font-family: "Ubuntu Mono", "Lucida Console","Lucida Sans Typewriter",monaco,"Bitstream Vera Sans Mono",monospace; }
 
-a {
+#main-header {
+  background: black;
+  position: sticky;
+  top: 0;
+  z-index: 100; }
+
+.nav-link {
   text-decoration: none; }
+
+a a:hover {
+  text-decoration: none; }
+
+.about-imgs {
+  max-width: 100%;
+  height: 21%;
+  margin-top: 10px;
+  margin-bottom: 20px; }
 
 .not-found {
   background-color: red;
