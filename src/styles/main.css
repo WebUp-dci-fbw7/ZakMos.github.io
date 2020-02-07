@@ -7174,6 +7174,9 @@ a a:hover {
   margin-top: 10px;
   margin-bottom: 20px; }
 
+#contact {
+  margin-top: 50px; }
+
 .not-found {
   background-color: red;
   color: white;
