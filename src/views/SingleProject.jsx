@@ -54,7 +54,7 @@ class SingleProject extends Component {
             <Badge key={tag} color="primary" pill>{tag}</Badge>
           ))}
         </div>
-        <a href={project.projectUrl}>See it online!</a>
+          <a href={project.projectUrl} target="_blank" rel="noopener noreferrer">See it online!</a>
       </Fragment>
       )
     }
