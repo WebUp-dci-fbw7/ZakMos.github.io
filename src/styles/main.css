@@ -7197,6 +7197,11 @@ a a:hover {
   color: white;
   text-align: center; }
 
+.main-page {
+  margin-top: 25px;
+  background-color: #252020;
+  font-style: white; }
+
 .personal-img {
   width: 200px;
   height: 200px; }
