@@ -5,40 +5,27 @@
 		"imageUrl":"/images/I-lost-my-runner.png",
 		"thumbnailUrl":"/images/I-lost-my-runner1.jpg",
 		"projectUrl":"https://github.com/ZakMos/I-lost-my-runners1",
-		"tags":["Phaser 3","javascript","css","html"
-	]},
-{	"title":"Quizzards",
-	"description":"A small quiz app",
-	"imageUrl":"/images/Quizzard800-600.png",
-	"thumbnailUrl":"/images/quizzard200-200.png",
-	"projectUrl":"https://github.com/ZakMos/quizzards",
-	"tags":["OOP","javascript","bootstrap","sass","css","html"
-]},
-{	"title":"Student Roster",
-	"description":"A list of students in my class",
-	"imageUrl":"/images/student800x600.jpg",
-	"thumbnailUrl":"/images/studentRoster200-200.jpg",
-	"projectUrl":"https://github.com/ZakMos/student-roster",
-	"tags":["html","css","javascript","DOM"]
-},
-{	"title":"Guessing Game",
-	"description":"A small game to guess a number",
-	"imageUrl":"/images/GussingGame800-600.jpg",
-	"thumbnailUrl":"/images/GussingGame200-200.png",
-	"projectUrl":"https://github.com/ZakMos/Gusseing-Game_2",
-	"tags":["html","bootstrap","css","javascript"]
-},
-{	"title":"Shopping Cart",
-	"description":"Shopping Cart",
-	"imageUrl":"/images/shopingCart-800-600.png",
-	"thumbnailUrl":"/images/shopingCart-200-200.png",
-	"projectUrl":"https://github.com/ZakMos/shopping-cart",
-	"tags":["jsx","react", "redux", "javascript", "yarn", "css", "sass", "bootstrap"]
-},
-{	"title":"Dicey dice",
-	"description":"Dicey dice",
-	"imageUrl":"/images/dice-800-600.jpg",
-	"thumbnailUrl":"/images/dice-200_200.jpg",
-	"projectUrl":"https://github.com/ZakMos/dicey",
-	"tags":["jsx","css","javascript"]
-}]
+		"tags":["Phaser 3","javascript","css","html"]	
+	},
+	{	"title":"Quizzards",
+		"description":"A small quiz app",
+		"imageUrl":"/images/Quizzard800-600.png",
+		"thumbnailUrl":"/images/quizzard200-200.png",
+		"projectUrl":"https://github.com/ZakMos/quizzards",
+		"tags":["OOP","javascript","bootstrap","sass","css","html"]	
+	},
+	{	"title":"Shopping Cart",
+		"description":"Shopping Cart",
+		"imageUrl":"/images/shopingCart-800-600.png",
+		"thumbnailUrl":"/images/shopingCart-200-200.png",
+		"projectUrl":"https://github.com/ZakMos/shopping-cart",
+		"tags":["jsx","react", "redux", "javascript", "yarn", "css", "sass", "bootstrap"]
+	},
+	{	"title":"Dicey dice",
+		"description":"Dicey dice",
+		"imageUrl":"/images/dice-800-600.jpg",
+		"thumbnailUrl":"/images/dice-200_200.jpg",
+		"projectUrl":"https://github.com/ZakMos/dicey",
+		"tags":["jsx","css","javascript"]
+	}
+]
