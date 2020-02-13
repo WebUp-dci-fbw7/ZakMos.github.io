@@ -1,14 +1,9 @@
-import React, {Component} from 'react';
+import React, {Component, Fragment} from 'react';
 import {Link} from "react-router-dom";
 
-import {
-  CardDeck,
-  Card,
-  CardTitle,
-  CardBody,
-  Badge
-} from 'reactstrap';
+import { CardDeck, Card, CardTitle, CardBody, Badge } from 'reactstrap';
 import Loader from '../components/Loader';
+
 import ProjectsClient from "../modules/projectsClient";
 
 
@@ -23,7 +18,6 @@ class Projects extends Component {
   }
 
   componentDidMount(){
-    document.title = "Projects | Zakaria's website";
 
     client.getProjects().then(projects => {
       this.setState({ projects });
@@ -32,28 +26,59 @@ class Projects extends Component {
   render(){
     if(this.state.projects.length === 0){
       return <Loader />
-    } else {
+    }  else {
     return(
+      <Fragment>
+        <div id="projects"></div>
+        <div className="sections">
+          <h1>Projects</h1>
+        </div>
       <CardDeck>
         {this.state.projects.map((project, i) => (
           <Card key={i}>
-            <CardBody>
               <CardTitle className="h3">
                 {project.title}
               </CardTitle>
-            </CardBody>
-            <img width="100%" src={project.thumbnailUrl} alt={project.title}/>
+            <img className="card-img-top"  src={project.thumbnailUrl} alt={project.title}/>
             <CardBody>
               <div className="tags">
                 {project.tags.map(tag => (
                   <Badge key={tag} color="primary" pill>{tag}</Badge>
                 ))}
               </div>
-              <Link className="btn btn-primary" to={`/projects/${i}`}>See project</Link>
+              <div className="card-footer">
+                <Link className="btn btn-primary" to={`/projects/${i}`}>See project</Link>
+              </div>
             </CardBody>
           </Card>
         ))}
       </CardDeck>
+
+        <div className="card-deck">
+          {this.state.projects.map((project, i) => (
+            <div className="card" key={i}>
+              <img className="card-img-top" width="100%"
+                src={project.thumbnailUrl} 
+                alt={project.title ? project.title : null}/>
+            <div className="card-body">
+                <h5 className="card-title">{project.title}</h5>
+                <div className="tags">
+                {project.tags.map(tag => (
+                  <Badge key={tag} color="primary" pill>{tag}</Badge>
+                ))}
+              </div>
+                <p className="card-text">{project.description}</p>
+            </div>
+            <div className="card-footer">
+                <Link className="btn btn-primary" to={`/projects/${i}`}>See project</Link>
+            </div>
+          </div>
+          ))}
+        </div>
+
+
+
+      </Fragment>
       );
     }
   }

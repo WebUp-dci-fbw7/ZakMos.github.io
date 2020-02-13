@@ -15,8 +15,11 @@ class Contact extends Component {
   render() {
     return (
       <Fragment>
-        <div ref={this.about} id="contact"></div>
-
+        <div id="contact"></div>
+        <div className="sections">
+          <h1>Contact</h1>
+        </div>
+        <div className="tab-pane fade"></div>
         <Form className="container mt-5" action="https://formspree.io/z.zza@hotmail.com" method="POST" >
           <FormGroup className="row mb-3 mb-sm-0">
             <Col>
@@ -41,7 +44,6 @@ class Contact extends Component {
           <Button className="mr-2" color="secondary" type="reset" value="Reset the form">Reset the form</Button>
           <Button color="info" type="submit" value="Send">Submit Form</Button>
         </Form>
-
         <section className="container mt-5 justify-content-center">
           <h2 className="justify-content-center d-flex">Contact details</h2>
           <div className="">
@@ -67,8 +69,6 @@ class Contact extends Component {
               </ul>
             </div>
         </section>
-
-
         <section className="container  mt-5">
           <h3 className="justify-content-center d-flex">Follow me</h3>
             <div className="justify-content-center  d-flex mt-2">

@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component, Fragment} from 'react';
 import { Jumbotron, Button } from 'reactstrap';
 import personalPic from '../images/zakaria-pic.jpg';
 import { NavLink as RRNavLink } from 'react-router-dom';
@@ -9,7 +9,8 @@ class Home extends Component {
   }
   render() {
     return (
-       <div className="center">
+      <Fragment>
+      <div id="home"></div>
         <Jumbotron>
           <h2 className="display-3 text-center">
             Welcome to my Portfolio, :)
@@ -28,7 +29,7 @@ class Home extends Component {
             <Button color="primary" exact to="/about" activeClassName="active" tag={RRNavLink}>About Me</Button>
           </p>
         </Jumbotron>
-      </div>
+      </Fragment>
   );
   }
 }

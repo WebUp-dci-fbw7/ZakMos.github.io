@@ -8,17 +8,17 @@ class About extends Component {
   componentDidMount() {
     document.title = 'About | Zakaria\'s website';
   }
-  constructor(props) {
-    super(props)
-      this.about = React.createRef()
-  }
+
   render() {
     return (
       <Fragment>
-      <div ref={this.about} id="about"></div>
+        <div id="about"></div>
+        <div className="sections-about">
+          <h1>About Me</h1>
+        </div>
       <CardDeck>
         <Card>
-          <CardImg top width="100%" src={experience} alt="Card image cap" />
+          <CardImg className="about-imgs rounded-circle border" top src={experience} alt="Card image cap" />
           <CardBody>
             <CardTitle>Experience</CardTitle>
               <ListGroup>
@@ -49,7 +49,7 @@ class About extends Component {
           </CardFooter>
         </Card>
         <Card>
-          <CardImg top width="100%" height="265" src={training} alt="Card image cap" />
+          <CardImg className="about-imgs rounded-circle border" top src={training} alt="Card image cap" />
           <CardBody>
             <CardTitle>Training</CardTitle>
             <ListGroup>
@@ -78,17 +78,14 @@ class About extends Component {
                 <CardSubtitle>2010</CardSubtitle>
                 Riyadh - Saudi Arabia
               </ListGroupItem>
-
-
             </ListGroup>
-
           </CardBody>
           <CardFooter className="text-muted">
             <small>last updated 15-11-2019</small>
           </CardFooter>
         </Card>
         <Card>
-          <CardImg top width="100%" src={languages} alt="Card image cap" />
+            <CardImg className="about-imgs rounded-circle border" top src={languages} alt="Card image cap" />
           <CardBody>
             <CardTitle>Languages</CardTitle>
               <ListGroup>
