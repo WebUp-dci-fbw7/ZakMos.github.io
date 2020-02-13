@@ -33,8 +33,44 @@ main {
 .nav-link {
   text-decoration: none;
 }
+
+a a:hover {
+  text-decoration: none;
+}
+
 // === End === Header ==== // 
 
+
+// === Start === Home Page ==== // 
+
+.main-page {
+  margin-top: 25px;
+  // background-color: rgb(37, 32, 32);
+  font-style: white;
+}
+
+.personal-img {
+  width: 200px;
+  height: 200px;
+}
+
+// === End === Home Page ==== // 
+
+.sections {
+  margin-top: 7rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.sections-about {
+  margin-top: 5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#about{
+  margin-top: 0;
+}
 // === Start === About ==== // 
 
 .about-imgs {
@@ -86,22 +122,6 @@ main {
 }
 
 // === End === NotFound Page ==== // 
-
-// === Start === Home Page ==== // 
-
-.main-page {
-margin-top: 25px;
-background-color: rgb(37, 32, 32);
-font-style: white;
-}
-
-.personal-img {
-  width: 200px;
-  height: 200px;
-}
-
-// === End === NotFound Page ==== // 
-
 
 // === Start === Footer ==== // 
 

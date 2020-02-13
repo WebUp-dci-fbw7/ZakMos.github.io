@@ -7168,6 +7168,27 @@ main {
 a a:hover {
   text-decoration: none; }
 
+.main-page {
+  margin-top: 25px;
+  font-style: white; }
+
+.personal-img {
+  width: 200px;
+  height: 200px; }
+
+.sections {
+  margin-top: 7rem;
+  text-align: center;
+  margin-bottom: 2rem; }
+
+.sections-about {
+  margin-top: 5rem;
+  text-align: center;
+  margin-bottom: 2rem; }
+
+#about {
+  margin-top: 0; }
+
 .about-imgs {
   max-width: 100%;
   height: 21%;
@@ -7196,15 +7217,6 @@ a a:hover {
   background-color: red;
   color: white;
   text-align: center; }
-
-.main-page {
-  margin-top: 25px;
-  background-color: #252020;
-  font-style: white; }
-
-.personal-img {
-  width: 200px;
-  height: 200px; }
 
 footer p {
   position: absolute;
