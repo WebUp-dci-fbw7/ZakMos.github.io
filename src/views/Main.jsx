@@ -6,15 +6,17 @@ import Contact from './Contact';
 
 class Main extends Component {
     componentDidMount() {
-        document.title = 'Main | Zakaria\'s website';
+        document.title = 'Zakaria\'s website';
     }
     render() {
         return (        
             <Fragment>
-                < Home />
-                < About />
-                < Projects />
-                < Contact />
+                <div className="tab-content" id="pills-tabContent">
+                    < Home />
+                    < About />
+                    < Contact />
+                    < Projects />
+                </div>
             </Fragment>
         );
     }
