@@ -16,10 +16,10 @@ class Contact extends Component {
     return (
       <Fragment>
         <div id="contact"></div>
-        <div className="sections">
+        <div className="sections section-contact">
           <h1>Contact</h1>
         </div>
-        <div className="tab-pane fade"></div>
+        <div className="tab-pane"></div>
         <Form className="container mt-5" action="https://formspree.io/z.zza@hotmail.com" method="POST" >
           <FormGroup className="row mb-3 mb-sm-0">
             <Col>
