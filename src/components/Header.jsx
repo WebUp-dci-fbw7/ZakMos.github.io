@@ -9,8 +9,9 @@ export default class Header extends React.Component {
 render() {
   return (
     <Fragment>
+      <div id="home"></div>
       <header id="main-header">
-        <Nav className="nav nav-pills">
+        <Nav className="nav">
           <NavItem>
             <NavLink
               className="nav-link"
@@ -22,7 +23,7 @@ render() {
             <NavLink
               className="nav-link"
               to="/#about"
-              >about
+              >About
             </NavLink>
           </NavItem>
           <NavItem>
