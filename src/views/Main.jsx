@@ -11,11 +11,11 @@ class Main extends Component {
     render() {
         return (        
             <Fragment>
-                <div className="tab-content" id="pills-tabContent">
+                <div className="tab-content">
                     < Home />
                     < About />
                     < Contact />
-                    < Projects />
+                    <Projects />
                 </div>
             </Fragment>
         );
