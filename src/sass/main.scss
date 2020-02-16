@@ -1,28 +1,40 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
 @import url('https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css');
-
-// === Start === Default Dom Setting ==== // 
-#root {
-  @include make-container();
-  margin-top: 0.5rem;
+@import "./animation.scss";
+// ====== Default Dom Setting ==== // 
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+body {
+  line-height: 1;
+}
 
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 main {
   min-height: 100vh;
-  font-family: "Ubuntu Mono", "Lucida Console","Lucida Sans Typewriter",monaco,"Bitstream Vera Sans Mono",monospace;
+  font-family: 
+      "Ubuntu Mono", 
+      "Lucida Console",
+      "Lucida Sans Typewriter",monaco,
+      "Bitstream Vera Sans Mono",monospace;
 }
 
-// === End === Default Dom Setting ==== // 
-
-
-// === Start === Header ==== // 
+// ====== Header ======= // 
 
 #main-header {
   background: black;
@@ -33,7 +45,8 @@ main {
   z-index: 100;
 }
 .nav-link {
-  text-decoration: none;
+  color:white;
+  font-size: large;
 }
 
 @media only screen and (max-width: 400px) {
@@ -53,93 +66,277 @@ main {
   height: 100%;
 }
 
-// === End === Header ==== // 
-
-
-// === Start === Home Page ==== // 
-
+// ====== Home Page ====== // 
 .main-page {
-  margin-top: 25px;
+  margin-top: 0em;
   // background-color: rgb(37, 32, 32);
   font-style: white;
 }
+
+.home-img {
+  height: 80%;
+  width: 80%;
+}
+.welcome-message {
+  background: red;
+  z-index: 10;
+  text-align: center;
+  font-size: 5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 1200px) {
+  .welcome-message {
+    font-size: 4em;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .welcome-message {
+    font-size: 3em;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .welcome-message {
+    font-size: 2em;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .welcome-message {
+    font-size: 1em;
+  }
+}
+
+
 
 .personal-img {
   width: 200px;
   height: 200px;
 }
-
-// === End === Home Page ==== // 
-
 .sections {
-  margin-top: 7rem;
+  margin-top: 2.5rem;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 10rem;
+  background: red;
+}
+@media only screen and (max-width: 570px) {
+  .section-projects {
+  margin-top: 2.4rem;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .section-contact {
+    margin-top: 3.4rem;
+  }
 }
 
-.sections-about {
-  margin-top: 5rem;
-  text-align: center;
-  margin-bottom: 2rem;
-}
 
-#about{
-  margin-top: 0;
-}
-// === Start === About ==== // 
+// ====== About ====== // 
 
 .about-imgs {
   max-width: 100%;
   height: 21%;
   margin-top: 10px;
   margin-bottom: 20px;
-
+}
+.section-about {
+  margin-top: 4.5rem;
+  background: red;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+@media only screen and (max-width: 375px) {
+  .section-about {
+    margin-top: 4.4rem;
+  }
 }
 
-// === End === About ==== // 
+// ====== Contact Page ======= // 
 
-#contact {
-  margin-top: 50px;
+// ====== Projects Page ======= // 
+
+
+.wrapper {
+  max-width: 1335px;
+  box-sizing: border-box;
+  padding: 0 20px;
+  margin: auto;
 }
 
-
-// === Start === Projects Page ==== // 
-
-#projects {
-  margin-top: 50px;
+.wrapper a {
+  display: inline-block;
+  margin: 5px;
 }
 
-.card-deck .card {
-  margin-bottom: 107px;
+.wrapper a:first-child {
+  margin-left: 0;
 }
 
-.card-img-top {
+.slider-wrapper {
+  position: relative;
+  height: 70vh;
+  overflow: hidden;
+  margin-left: 10px;
+}
+
+.slide {
+  height: 70vh;
+  background-size: cover !important;
+}
+
+.slide::before {
+  content: '';
+  display: block;
+  position: absolute;
   width: 100%;
-  height: 35%;
-  padding: 10px;
-  border-radius: 14%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.9)));
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.9));
+  bottom: 0;
+  left: 0;
 }
 
-.card-footer {
+.btn-project {
+  -webkit-appearance: none;
+  appearance: none;
+  -webkit-filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.1));
+  filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.1));
+  -webkit-transition: all .5s ease;
+  filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.1));
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  border: none;
+  background: #FFD800;
+  color: black;
+  border-radius: 30px;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  margin-top: 150px;
+  margin-bottom: 0;
+  padding: 15px 40px;
+  // font-weight: 400;
+  font-size: 13px;
+  cursor: cursor;
+}
+
+.btn-project:hover {
+  color: #FFFFFF;
+  background: #222222;
+  -webkit-filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
+}
+
+.previousButton,
+.nextButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background: url('http://svgshare.com/i/41_.svg') no-repeat center center / 16px;
+  width: 32px;
+  height: 32px;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+
+.previousButton:hover,
+.nextButton:hover {
+  background: url('http://svgshare.com/i/41_.svg') no-repeat center center / 16px;
+}
+
+.previousButton {
+  left: 0;
+  -webkit-transform: rotate(180deg) translateY(calc(50% + 0px));
+  transform: rotate(180deg) translateY(calc(50% + 0px));
+}
+
+.previousButton:hover {
+  left: -10px;
+}
+
+.nextButton {
+  right: 0;
+}
+
+.nextButton:hover {
+  right: -10px;
+}
+
+.slider-content {
   text-align: center;
 }
 
-// === End === Projects Page ==== // 
+.slider-content .inner {
+  padding: 0 70px;
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.slider-content .inner button {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.slider-content .inner h1 {
+  font-weight: 900;
+  margin: 0 auto;
+  max-width: 840px;
+  color: #FFFFFF;
+  font-size: 64px;
+  line-height: 1;
+}
+
+.slider-content .inner p {
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 20px auto 30px;
+  max-width: 640px;
+}
 
 
+@media (max-height: 500px) {
 
+  .slider-wrapper,
+  .slide {
+    height: calc(100vh - 75px);
+  }
+}
 
-// === Start === NotFound Page ==== // 
+@media (max-width: 640px) {
+
+  .slider-wrapper,
+  .slide {
+    height: calc(80vh - 75px);
+  }
+}
+
+@media (max-height: 600px) {
+  .slider-content .inner h1 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 640px) {
+  .slider-content .inner h1 {
+    font-size: 32px;
+  }
+}
+
+// ====== NotFound Page ====== // 
 .not-found {
   background-color: red;
   color: white;
   text-align: center;
 }
 
-// === End === NotFound Page ==== // 
-
-// === Start === Footer ==== // 
-
+// ====== Footer ====== // 
 footer p {
     position: absolute;
     // bottom: 0;
@@ -150,11 +347,7 @@ footer p {
     text-align: center;
 }
 
-// === End === Footer ==== // 
-
-
-// === Start === Loader ==== // 
-
+// ====== Loader ====== // 
 .lds-roller {
   display: inline-block;
   position: relative;
@@ -260,4 +453,3 @@ footer p {
   }
 }
 
-// === End === Loader ==== // 
