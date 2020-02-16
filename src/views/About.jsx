@@ -13,8 +13,8 @@ class About extends Component {
     return (
       <Fragment>
         <div id="about"></div>
-        <div className="sections-about">
-          <h1>About Me</h1>
+        <div className="section-about">
+          <h1>About</h1>
         </div>
       <CardDeck>
         <Card>
