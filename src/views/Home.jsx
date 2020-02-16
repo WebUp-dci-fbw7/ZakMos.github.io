@@ -1,8 +1,12 @@
 import React, {Component, Fragment} from 'react';
-import { Jumbotron, Button } from 'reactstrap';
+import { Jumbotron } from 'reactstrap';
 import personalPic from '../images/zakaria-pic.jpg';
-import { NavLink as RRNavLink } from 'react-router-dom';
-
+import newProjects from '../images/NewProject.jpg';
+import welcomeMsg from '../images/dci05.jpg';
+import niceDay from '../images/dci03.jpg';
+import { NavHashLink as NavLink } from 'react-router-hash-link';
+import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView, MDBContainer } from
+  "mdbreact";
 class Home extends Component {
   componentDidMount() {
     document.title = 'Home | Zakaria\'s website';
@@ -10,11 +14,56 @@ class Home extends Component {
   render() {
     return (
       <Fragment>
-      <div id="home"></div>
-        <Jumbotron>
-          <h2 className="display-3 text-center">
-            Welcome to my Portfolio, :)
-          </h2>
+        <MDBContainer>
+          <MDBCarousel
+            activeItem={1}
+            length={3}
+            showControls={false}
+            showIndicators={false}
+            className="z-depth-1"
+            slide
+          >
+            <MDBCarouselInner>
+              <MDBCarouselItem itemId="1">
+                <MDBView>
+                  <img
+                    className="home-img d-block w-100"
+                    src={welcomeMsg}
+                    alt="Welcome Message"
+                  />
+                  <h2 className="welcome-message">
+                    Welcome to my Portfolio
+                </h2>
+                </MDBView>
+              </MDBCarouselItem>
+              <MDBCarouselItem itemId="2">
+                <MDBView>
+                  <img
+                    className="home-img d-block w-100"
+                    src={newProjects}
+                    alt="New Projects"
+                  />
+                </MDBView>
+                <h2 className="welcome-message">
+                  New Projects Coming Soon
+                </h2>
+              </MDBCarouselItem>
+              <MDBCarouselItem itemId="3">
+                <MDBView>
+                  <img
+                    className="home-img d-block w-100"
+                    src={niceDay}
+                    alt="Third slide"
+                  />
+                </MDBView>
+                <h2 className="welcome-message">
+                  Have a nice Day...
+                </h2>
+              </MDBCarouselItem>   
+            </MDBCarouselInner>
+          </MDBCarousel>
+        </MDBContainer>
+        <Jumbotron>      
           <img className="personal-img rounded-circle border border-primary mt-4 mx-auto d-block" src={personalPic} alt="Zakaria's-pic" />
           <p className="lead mt-4">I have graduated from Digital Career Institute (DCI) Berlin, as Web Developer.</p>
           <p className="lead mt-1">I have worked on several projects involving HTML5, CSS3, AJAX, Git, Version Control, Testing, JavaScript, Jquery, React, Redux, NodeJS, MongoDB, MySQL, Express, and I have studied phaser3, PHP, PHP-Laravel, and Angular, Currently I am looking for new challenges as Junior Full Stack Web Developer.
@@ -25,9 +74,13 @@ class Home extends Component {
           Creativity, motivation, adopting quickly with job or new environment and learning quickly.</p>
           <hr className="my-2" />
           <p>Take a look of my profile</p>
-          <p className="lead">
-            <Button color="primary" exact to="/about" activeClassName="active" tag={RRNavLink}>About Me</Button>
+          <p className="lead">    
           </p>
+          <NavLink
+            className="nav-link"
+            to="/#about"
+          >About Me
+            </NavLink>
         </Jumbotron>
       </Fragment>
   );
