@@ -2,30 +2,40 @@
 [
 	{	"title":"I Lost My Runner",
 		"description":"A funny Running Man Game using Phaser 3",
-		"imageUrl":"/images/I-lost-my-runner.png",
-		"thumbnailUrl":"/images/I-lost-my-runner1.jpg",
-		"projectUrl":"https://github.com/ZakMos/I-lost-my-runners1",
-		"tags":["Phaser 3","javascript","css","html"]	
+		"imageUrl":"/images/I-lost-my-runner.jpg",
+		"url": "http://ilostmyrunner.epizy.com/",
+		"github": "https://github.com/ZakMos/I-lost-my-runners1",
+		"tags":["Phaser 3","javascript","css","html"]
 	},
 	{	"title":"Quizzards",
 		"description":"A small quiz app",
-		"imageUrl":"/images/Quizzard800-600.png",
-		"thumbnailUrl":"/images/quizzard200-200.png",
-		"projectUrl":"https://github.com/ZakMos/quizzards",
-		"tags":["OOP","javascript","bootstrap","sass","css","html"]	
+		"imageUrl":"/images/Quizzard.jpg",
+		"url":"https://github.com/ZakMos/quizzards",
+		"github": "https://github.com/ZakMos/quizzards",
+		"tags":["OOP","javascript","bootstrap","sass","css","html"]
 	},
 	{	"title":"Shopping Cart",
 		"description":"Shopping Cart",
-		"imageUrl":"/images/shopingCart-800-600.png",
-		"thumbnailUrl":"/images/shopingCart-200-200.png",
-		"projectUrl":"https://github.com/ZakMos/shopping-cart",
+		"imageUrl":"/images/ShoppingCart.jpg",
+		"url": "http://zakproject01.epizy.com/",
+		"github": "https://github.com/ZakMos/shopping-cart",
+
 		"tags":["jsx","react", "redux", "javascript", "yarn", "css", "sass", "bootstrap"]
 	},
-	{	"title":"Dicey dice",
-		"description":"Dicey dice",
-		"imageUrl":"/images/dice-800-600.jpg",
-		"thumbnailUrl":"/images/dice-200_200.jpg",
-		"projectUrl":"https://github.com/ZakMos/dicey",
-		"tags":["jsx","css","javascript"]
+	{
+		"title": "ToDo App",
+		"description": "Simple App Todo List Application",
+		"imageUrl": "/images/Todo.jpg",
+		"url": "http://zakmos.epizy.com/?i=1",
+		"github": "https://github.com/ZakMos/todo-live",
+		"tags": ["jsx", "css", "javascript", "React", "redux"]
+	},
+	{
+		"title": "Converter",
+		"description": "Simple App Currency Converter",
+		"imageUrl": "/images/ComingSoon.jpg",
+		"url": "Coming soon",
+		"github": "Coming soon",
+		"tags": ["jsx", "css", "javascript", "React"]
 	}
 ]
