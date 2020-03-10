@@ -9,14 +9,13 @@ class Main extends Component {
         document.title = 'Zakaria\'s website';
     }
     render() {
-        return (        
+        return (
             <Fragment>
-                <div className="tab-content">
-                    < Home />
-                    < About />
-                    < Contact />
-                    <Projects />
-                </div>
+              <div className="top"><p>Top</p></div>
+              < Home />
+              < About />
+              < Projects />
+              < Contact />
             </Fragment>
         );
     }
