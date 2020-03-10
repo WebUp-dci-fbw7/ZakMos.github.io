@@ -14,7 +14,7 @@ render() {
         <Nav className="nav">
           <NavItem>
             <NavLink
-              className="nav-link"
+              className="nav-link header-home-nav"
               to="/#home"
               >Home
            </NavLink>
@@ -29,17 +29,18 @@ render() {
           <NavItem>
             <NavLink
               className="nav-link"
-              to="/#contact"
-              >Contact
-            </NavLink>
+              to="/#projects"
+            >Projects
+          </NavLink>
           </NavItem>
           <NavItem>
             <NavLink
               className="nav-link"
-              to="/#projects"
-              >Projects
-          </NavLink>
+              to="/#contact"
+              >Contact
+            </NavLink>
           </NavItem>
+          
         </Nav>
       </header>
     </Fragment>
