@@ -1,17 +1,14 @@
 import React, {Component, Fragment} from 'react';
 import { Col, Button, Form, FormGroup, Label, Input } from 'reactstrap';
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
-import { faFacebookSquare } from '@fortawesome/free-brands-svg-icons';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import {  faInstagram,
+          faTwitterSquare,
+          faFacebookSquare,
+          faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faPaperPlane, faRedo } from '@fortawesome/free-solid-svg-icons';
 
 
 class Contact extends Component {
-  componentDidMount() {
-    document.title= 'Contact | Zakaria\'s website';
-  }
   render() {
     return (
       <Fragment>
@@ -20,7 +17,7 @@ class Contact extends Component {
           <h1>Contact</h1>
         </div>
         <div className="tab-pane"></div>
-        <Form className="container mt-5" action="https://formspree.io/z.zza@hotmail.com" method="POST" >
+        <Form className="container mt-1" action="https://formspree.io/z.zza@hotmail.com" method="POST" >
           <FormGroup className="row mb-3 mb-sm-0">
             <Col>
               <Label for="firstName" className="mr-sm-2">First Name</Label>
@@ -41,8 +38,12 @@ class Contact extends Component {
             <Input type="email" name="_replyto" id="Email" placeholder="Enter your E-mail" required/>
             </Col>
           </FormGroup>
-          <Button className="mr-2" color="secondary" type="reset" value="Reset the form">Reset the form</Button>
-          <Button color="info" type="submit" value="Send">Submit Form</Button>
+          <Button className="mr-2" color="secondary" type="reset" value="Reset the form" title="Reset the form">
+            <FontAwesomeIcon icon={faRedo} size="3x"></FontAwesomeIcon>
+            </Button>
+          <Button color="info" type="submit" value="Send" title="Submit the Form">
+            <FontAwesomeIcon icon={faPaperPlane} size="3x"></FontAwesomeIcon>
+          </Button>
         </Form>
         <section className="container mt-5 justify-content-center">
           <h2 className="justify-content-center d-flex">Contact details</h2>
