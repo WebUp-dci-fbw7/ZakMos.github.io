@@ -1,5 +1,7 @@
 import React, {Component, Fragment} from 'react';
 import { Card, CardTitle, CardSubtitle, CardDeck, CardBody, ListGroup, ListGroupItem } from 'reactstrap';
+import top from '../images/top.png';
+import { NavHashLink as NavLink } from 'react-router-hash-link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLightbulb, faChartLine, faLanguage } from '@fortawesome/free-solid-svg-icons';
 
@@ -8,15 +10,22 @@ class About extends Component {
     return (
       <Fragment>
         <div id="about"></div>
+        <NavLink className="top" to="/#home">
+          <img
+            className="top-img animated fadeInUp"
+            src={top}
+            alt="Back to Top"
+            title="Back to Top"/>
+        </NavLink>
         <div className="sections section-about">
-          <h1>About</h1>
+          <h1 className="main-pages-header">About</h1>
         </div>
         <div>
-          <div className="aboutMainTitle">
+          <div className="about-main-title">
             <h2 className="about-title">Experience</h2>
             <FontAwesomeIcon icon={faChartLine} size="3x"></FontAwesomeIcon>
           </div>
-            <table className="table">
+            <table className="table about-table-experience">
             <thead className="thead-dark">
               <tr>
                 <th>Year</th>
@@ -56,10 +65,10 @@ class About extends Component {
                 <td>Aleppo - Syria</td>
               </tr>
             </tbody>
-           
+
           </table>
         </div>
-        <div className="table-2">
+        <div className="about-table-responsive">
         <CardDeck>
           <Card>
             <CardBody>
@@ -89,14 +98,14 @@ class About extends Component {
           </Card>
         </CardDeck>
         </div>
+        <div className="bg01">
         <div className="line-separator"></div>
-
-        <div className="aboutMainTitle">
+        <div className="about-main-title">
           <h2 className="about-title">Training</h2>
           <FontAwesomeIcon icon={faLightbulb} size="3x"></FontAwesomeIcon>
         </div>
         <div>
-        <table className="table">
+        <table className="table about-table-training">
           <thead className="thead-dark">
             <tr>
               <th>Year</th>
@@ -139,7 +148,7 @@ class About extends Component {
           </tbody>
         </table>
         </div>
-        <div className="table-2">
+        <div className="about-bg01 about-table-responsive">
           <CardDeck>
             <Card>
               <CardBody>
@@ -175,12 +184,12 @@ class About extends Component {
           </CardDeck>
         </div>
         <div className="line-separator"></div>
-
-        <div className="aboutMainTitle">
+        </div>
+        <div className="about-main-title">
           <h2 className="about-title">Languages</h2>
           <FontAwesomeIcon icon={faLanguage} size="3x"></FontAwesomeIcon>
         </div>
-        <div className="aboutLanguageTable">
+        <div className="table about-table-language">
           <table className="table">
             <thead className="thead-dark">
               <tr>
@@ -212,16 +221,31 @@ class About extends Component {
             </tbody>
           </table>
         </div>
-        <div className="table-2">
+        <div className="about-table-responsive">
         <CardDeck>
           <Card>
             <CardBody>
               <ListGroup>
-                <ListGroupItem>Germany: B1</ListGroupItem>
-                <ListGroupItem>English: Fluent</ListGroupItem>
-                <ListGroupItem>Kurdish: Mother Tongue</ListGroupItem>
-                <ListGroupItem>Arabic: Fluent</ListGroupItem>
-                <ListGroupItem>Turkish: Average</ListGroupItem>
+                <ListGroupItem>
+                  <CardTitle>Germany</CardTitle>
+                  <CardSubtitle>B1</CardSubtitle>
+                </ListGroupItem>
+                <ListGroupItem>
+                  <CardTitle>English</CardTitle>
+                  <CardSubtitle>Fluent</CardSubtitle>
+                </ListGroupItem>
+                <ListGroupItem>
+                  <CardTitle>Kurdish</CardTitle>
+                  <CardSubtitle>Mother Tongue</CardSubtitle>
+                </ListGroupItem>
+                <ListGroupItem>
+                  <CardTitle>Arabic</CardTitle>
+                  <CardSubtitle>Fluent</CardSubtitle>
+                </ListGroupItem>
+                <ListGroupItem>
+                  <CardTitle>Turkish</CardTitle>
+                  <CardSubtitle>Average</CardSubtitle>
+                </ListGroupItem>
                 </ListGroup>
             </CardBody>
           </Card>
