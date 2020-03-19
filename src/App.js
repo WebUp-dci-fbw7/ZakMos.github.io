@@ -7,7 +7,6 @@ import NotFound from './views/NotFound';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
-
 class App extends Component {
   render() {
     return (
@@ -17,7 +16,6 @@ class App extends Component {
               < main className = "main-page" >
                 <Switch>
                   <Route exact path="/" component={Main} />
-                  
                   <Route component={NotFound} />
                 </Switch>
               </main>
