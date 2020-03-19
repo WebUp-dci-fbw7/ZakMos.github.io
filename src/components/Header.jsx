@@ -1,11 +1,9 @@
 import React, {  Fragment } from 'react';
 import { Nav, NavItem } from 'reactstrap';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
-// import projects from '../projects.json'
 
 export default class Header extends React.Component {
 
-  
 render() {
   return (
     <Fragment>
@@ -40,12 +38,9 @@ render() {
               >Contact
             </NavLink>
           </NavItem>
-          
         </Nav>
       </header>
     </Fragment>
-);
+    );
+  }
 }
-}
-
-// export default Header;
