@@ -13,8 +13,9 @@ class Contact extends Component {
     return (
       <Fragment>
         <div id="contact"></div>
+        <div className="bg01">
         <div className="sections section-contact">
-          <h1>Contact</h1>
+          <h1 className="main-pages-header">Contact</h1>
         </div>
         <div className="tab-pane"></div>
         <Form className="container mt-1" action="https://formspree.io/z.zza@hotmail.com" method="POST" >
@@ -73,25 +74,26 @@ class Contact extends Component {
         <section className="container  mt-5">
           <h3 className="justify-content-center d-flex">Follow me</h3>
             <div className="justify-content-center  d-flex mt-2">
-            <ul className="list-unstyled list-inline-item ">
-              <li className="list-inline-item">
-                <a href="https://www.instagram.com/zaa_aak/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} size="3x"></FontAwesomeIcon>
-                </a>
-              </li>
-              <li className="list-inline-item">
-                <a href="https://twitter.com/zakaria_m" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitterSquare} size="3x"></FontAwesomeIcon></a>
-              </li>
-              <li className="list-inline-item">
-                <a href="https://www.facebook.com/Zak.Mus" target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon icon={faFacebookSquare} size="3x"></FontAwesomeIcon></a>
-              </li>
-              <li className="list-inline-item">
-                <a href="https://www.linkedin.com/in/zakmos" target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon icon={faLinkedin} size="3x"></FontAwesomeIcon></a>
-              </li>
-            </ul>
+              <ul className="list-unstyled list-inline-item ">
+                <li className="list-inline-item">
+                  <a href="https://www.instagram.com/zaa_aak/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} size="3x"></FontAwesomeIcon>
+                  </a>
+                </li>
+                <li className="list-inline-item">
+                  <a href="https://twitter.com/zakaria_m" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitterSquare} size="3x"></FontAwesomeIcon></a>
+                </li>
+                <li className="list-inline-item">
+                  <a href="https://www.facebook.com/Zak.Mus" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faFacebookSquare} size="3x"></FontAwesomeIcon></a>
+                </li>
+                <li className="list-inline-item">
+                  <a href="https://www.linkedin.com/in/zakmos" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faLinkedin} size="3x"></FontAwesomeIcon></a>
+                </li>
+              </ul>
+            </div>
+          </section>
         </div>
-        </section>
       </Fragment>
     );
   }
