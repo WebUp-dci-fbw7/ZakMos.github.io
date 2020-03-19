@@ -2,15 +2,11 @@ import React, {Component, Fragment} from 'react';
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 import { Badge } from 'reactstrap';
-import Loader from '../components/Loader';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import ProjectsClient from "../modules/projectsClient";
-
-
 const client = new ProjectsClient();
-
 class Projects extends Component {
   constructor(props){
     super(props);
@@ -18,22 +14,17 @@ class Projects extends Component {
       projects: []
     };
   }
-
   componentDidMount(){
-
     client.getProjects().then(projects => {
       this.setState({ projects });
     });
   }
   render(){
-    if(this.state.projects.length === 0){
-      return <Loader />
-    }  else {
     return(
       <Fragment>
         <div id="projects"></div>
         <div className="sections section-projects">
-          <h1>Projects</h1>
+          <h1 className="main-pages-header">Projects</h1>
         </div>
         <Slider autoplay={3000} className="slider-wrapper" >
           {this.state.projects.map((project, i) => (
@@ -64,7 +55,6 @@ class Projects extends Component {
       </Fragment>
       );
     }
-  }
 }
 
 export default Projects;
