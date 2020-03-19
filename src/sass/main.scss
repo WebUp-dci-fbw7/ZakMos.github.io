@@ -1,6 +1,7 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
 @import url('https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css');
+@import "./animate.scss";
 @import "./animation.scss";
 // ====== Default Dom Setting ==== //
 html, body {
@@ -34,11 +35,31 @@ main {
       "Bitstream Vera Sans Mono",monospace;
 }
 
-.top{
+.top {
+  display: none;
+}
+
+.top-bar {
   position:fixed;
-  background-color: yellow;
+  transform: rotate(90deg);
   z-index: 20;
   top: 50%;
+  align-items: center;
+}
+
+.top-img {
+  background: #fff;
+  border-radius: 50%;
+}
+
+.bg01 {
+  background: #f2f2f2;
+}
+
+.main-pages-header {
+  font-family: cursive;
+  font-variant: small-caps;
+  font-weight: bold;
 }
 // ====== Header ======= //
 
@@ -56,27 +77,26 @@ main {
   margin-left: 1em;
 }
 
-@media only screen and (max-width: 420px) {
-  .nav-link {
-    font-size: 1em;
-  }
-}
-@media only screen and (max-width: 360px) {
-  .nav-link {
-    margin-top: 1px;
-    padding-right: 0.5px;
-  }
-}
 .nav-link:hover {
   color: black;
   background: white;
   height: 100%;
+  border: 1px 1px 0 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388;
+}
+
+.text-focus-in {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
 // ====== Home Page ====== //
 .main-page {
   margin-top: 0em;
-  font-style: white;
+  font-style: #fff;
 }
 
 .tab-content {
@@ -88,7 +108,7 @@ main {
   filter: blur(1px);
 }
 .welcome-message {
-  color: white;
+  color: #fff;
   text-shadow: 2px 2px black;
   font-family: monospace;
   font-weight: bold;
@@ -100,29 +120,9 @@ main {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-@media only screen and (max-width: 1200px) {
-  .welcome-message {
-    font-size: 4em;
-  }
-}
-@media only screen and (max-width: 1000px) {
-  .welcome-message {
-    font-size: 3em;
-  }
-}
-@media only screen and (max-width: 700px) {
-  .welcome-message {
-    font-size: 2em;
-  }
-}
-@media only screen and (max-width: 425px) {
-  .welcome-message {
-    font-size: 1em;
-  }
-}
 
 .home-personal {
-  color: white;
+  color: #fff;
   margin-top: 5em;
   padding: 2em;
   display: flex;
@@ -130,13 +130,6 @@ main {
   align-items: center;
   align-content: space-between;
 }
-
-@media only screen and (max-width: 800px) {
-  .home-personal {
-    flex-wrap: wrap;
-  }
-}
-
 
 .personal-img {
   width: 180px;
@@ -155,45 +148,25 @@ main {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 800px) {
-  .personal-description {
-    margin-top: 2em;
-    margin-left: 0;
-  }
-}
-
 .sections {
   text-align: center;
-  margin-bottom: 10rem;
-  // background: red;
+  margin-bottom: 6rem;
 }
 
-@media only screen and (max-width: 768px) {
-  .sections {
-    margin-bottom: 5rem;
-  }
+.experience-icons {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 5rem;
+  padding-bottom: 1rem;
 }
 
-@media only screen and (max-width: 411px) {
-  .sections {
-    margin-bottom: 2rem;
-  }
+.experience-icon {
+  margin: 2rem;
 }
-.section-projects {
-  margin-top: 2.4rem;
-}
-@media only screen and (max-width: 570px) {
-  .section-projects {
-  margin-top: 3.4rem;
-  }
-}
-.section-contact {
-  margin-top: 7.15rem;
-}
-
 
 // ====== About ====== //
-
 
 .about-title {
   background: #0d2e42;
@@ -204,43 +177,33 @@ main {
   border-radius: 50px;
 }
 .section-about {
-  margin-top: 4.4rem;
-}
-@media only screen and (max-width: 375px) {
-  .section-about {
-    margin-top: 4.5rem;
-  }
+  margin-top: 2.4rem;
 }
 
-.aboutMainTitle {
+.about-main-title {
   text-align: center;
   align-items: center;
 }
 
-.aboutLanguageTable {
+.about-table-experience {
+  margin: 1rem;
+  width: 98%;
+}
+
+.about-table-training {
+  width: 98%;
+  margin: 1rem;
+}
+
+.about-table-language {
   margin: 0 auto;
   width: 40%;
   text-align: center;
 }
-.table{
-  margin: 1rem;
-}
 
-.table-2 {
+.about-table-responsive {
   visibility: hidden;
   display: none;
-  // opacity: 0;
-}
-@media only screen and (max-width: 575px) {
-  .table {
-    visibility: hidden;
-    display: none;
-  }
-  .table-2 {
-    visibility: visible;
-    display: flex;
-    flex-wrap: wrap;
-  }
 }
 
 .line-separator {
@@ -250,8 +213,23 @@ main {
 
 // ====== Contact Page ======= //
 
+.section-contact {
+  margin-top: 7.15rem;
+}
+
+.list-inline-item {
+  transition: transform .2s;
+}
+
+.list-inline-item:hover {
+  transform: scale(1.2);
+}
+
 // ====== Projects Page ======= //
 
+.section-projects {
+  margin-top: 4.2rem;
+}
 
 .wrapper {
   max-width: 1335px;
@@ -335,7 +313,7 @@ main {
 }
 .slider-wrapper,
 .slide  {
-  height: 815px;
+  height: 800px;
 }
 
 .project-img {
@@ -423,19 +401,45 @@ main {
 
 }
 
+// ============== Footer ================= //
 
-// ============== Responsive ================= //
-@media (max-width: 1211px) {
-  .slider-wrapper,
-  .slide  {
-    height: 750px;
-  }
+.footer {
+  background: #252020;
+  color: #fff;
+  padding: 0.5rem
 }
 
-@media (max-width: 1012px) {
+.footer p {
+    margin: 0;
+    text-align: center;
+}
+
+// ====== NotFound Page ====== //
+.not-found {
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+// ============== Responsive ================= //
+
+@media (max-width: 1200px) {
+  .welcome-message {
+    font-size: 4em;
+  }
   .slider-wrapper,
   .slide  {
     height: 650px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .welcome-message {
+    font-size: 3em;
+  }
+  .slider-wrapper,
+  .slide  {
+    height: 500px;
   }
   .slider-content .inner h1 {
     font-size: 64px;
@@ -446,9 +450,16 @@ main {
 }
 
 @media (max-width: 770px) {
+  .home-personal {
+    flex-wrap: wrap;
+  }
+  .personal-description {
+    margin-top: 2em;
+    margin-left: 0;
+  }
   .slider-wrapper,
   .slide {
-    height: 450px;
+    height: 400px;
   }
   .tags {
     margin-bottom: -9em;
@@ -462,15 +473,32 @@ main {
 }
 
 @media (max-width: 640px) {
+  .welcome-message {
+    font-size: 2em;
+  }
   .slider-wrapper,
   .slide {
-    height: 320px;
+    height: 300px;
   }
   .btn-project {
     padding: 7px 15px;
   }
   .slider-content .inner h1 {
     font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .about-table-experience, .about-table-training, .about-table-language  {
+    visibility: hidden;
+    display: none;
+  }
+  .about-table-responsive {
+    visibility: visible;
+    display: list-item;
+    flex-wrap: wrap;
+    margin: 1rem;
+    list-style-type: none;
   }
 }
 
@@ -492,12 +520,27 @@ main {
     margin-top: 23em;
   }
 }
+
 @media (max-width: 420px) {
+  .welcome-message {
+    font-size: 1em;
+  }
+  .section-about {
+    margin-top: 4.5rem;
+  }
+  .nav-link {
+    font-size: 1em;
+  }
   .slider-content .inner h1 {
     font-size: 17px;
   }
 }
+
 @media (max-width: 320px) {
+  .nav-link {
+    margin-top: 1px;
+    padding-right: 0.5px;
+  }
   .slider-wrapper,
   .slide {
     height: 150px;
@@ -517,25 +560,6 @@ main {
     font-size: 8px;
     margin-top: 23em;
   }
-}
-
-
-// ====== NotFound Page ====== //
-.not-found {
-  background-color: red;
-  color: white;
-  text-align: center;
-}
-
-// ====== Footer ====== //
-footer p {
-    position: absolute;
-    // bottom: 0;
-    margin-top: 10px;
-    width: 100%;
-    height: 20px;
-    line-height: 20px;
-    text-align: center;
 }
 
 // ====== Loader ====== //
