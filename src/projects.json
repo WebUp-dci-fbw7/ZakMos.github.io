@@ -1,19 +1,5 @@
 
 [
-	{	"title":"I Lost My Runner",
-		"description":"A funny Running Man Game using Phaser 3",
-		"imageUrl":"/images/I-lost-my-runner.jpg",
-		"url": "http://ilostmyrunner.epizy.com/",
-		"github": "https://github.com/ZakMos/I-lost-my-runners1",
-		"tags":["Phaser 3","javascript","css","html"]
-	},
-	{	"title":"Quizzards",
-		"description":"A small quiz app",
-		"imageUrl":"/images/Quizzard.jpg",
-		"url":"https://github.com/ZakMos/quizzards",
-		"github": "https://github.com/ZakMos/quizzards",
-		"tags":["OOP","javascript","bootstrap","sass","css","html"]
-	},
 	{	"title":"Shopping Cart",
 		"description":"Shopping Cart",
 		"imageUrl":"/images/ShoppingCart.jpg",
@@ -31,11 +17,49 @@
 		"tags": ["jsx", "css", "javascript", "React", "redux"]
 	},
 	{
+		"title": "Markdown Blug",
+		"description": "Simple Markdown blug website",
+		"imageUrl": "/images/blog.jpg",
+		"url": "https://zak-markdown-blog.herokuapp.com/",
+		"github": "https://github.com/ZakMos/markdown-blog",
+		"tags": ["ejs", "css", "Bootstrap", "NodeJs", "Express", "MongoDb"]
+	},
+	{	"title":"I Lost My Runner",
+		"description":"A funny Running Man Game using Phaser 3",
+		"imageUrl":"/images/I-lost-my-runner.jpg",
+		"url": "http://ilostmyrunner.epizy.com/",
+		"github": "https://github.com/ZakMos/I-lost-my-runners1",
+		"tags":["Phaser 3","javascript","css","html"]
+	},
+	{	"title":"Quizzards",
+		"description":"A small quiz app",
+		"imageUrl":"/images/Quizzard.jpg",
+		"url":"https://github.com/ZakMos/quizzards",
+		"github": "https://github.com/ZakMos/quizzards",
+		"tags":["OOP","javascript","bootstrap","sass","css","html"]
+	},
+	{
 		"title": "Converter",
 		"description": "Simple App Currency Converter",
 		"imageUrl": "/images/ComingSoon.jpg",
 		"url": "Coming soon",
 		"github": "Coming soon",
-		"tags": ["jsx", "css", "javascript", "React"]
+		"tags": ["Coming Soon"]
+	},
+	{
+		"title": "Authentication",
+		"description": "Authentication Websites",
+		"imageUrl": "/images/ComingSoon.jpg",
+		"url": "Coming soon",
+		"github": "Coming soon",
+		"tags": ["Coming Soon"]
+	},
+	{
+		"title": "New Projects!",
+		"description": "More new Projects coming soon",
+		"imageUrl": "/images/ComingSoon.jpg",
+		"url": "Coming soon",
+		"github": "Coming soon",
+		"tags": ["Coming Soon"]
 	}
 ]
