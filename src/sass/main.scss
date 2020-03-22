@@ -225,6 +225,13 @@ main {
   transform: scale(1.2);
 }
 
+.contact-details-follow {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
 // ====== Projects Page ======= //
 
 .section-projects {
@@ -433,9 +440,15 @@ main {
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 992px) {
   .welcome-message {
     font-size: 3em;
+  }
+  .experience-icons {
+    font-size: 4rem;
+  }
+  .experience-icon {
+    margin: 1.3rem;
   }
   .slider-wrapper,
   .slide  {
@@ -449,13 +462,22 @@ main {
   }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 768px) {
   .home-personal {
     flex-wrap: wrap;
   }
   .personal-description {
     margin-top: 2em;
     margin-left: 0;
+  }
+  .experience-icons {
+    font-size: 3.5rem;
+  }
+  .experience-icon {
+    margin: 1rem;
+  }
+  h2 {
+    font-size: 1.5rem;
   }
   .slider-wrapper,
   .slide {
@@ -472,9 +494,21 @@ main {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 576px) {
   .welcome-message {
     font-size: 2em;
+  }
+  .experience-icons {
+    font-size: 3.2rem;
+  }
+  .experience-icon {
+    margin: 0.8rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  h3 {
+    font-size: 1rem;
   }
   .slider-wrapper,
   .slide {
@@ -486,9 +520,6 @@ main {
   .slider-content .inner h1 {
     font-size: 35px;
   }
-}
-
-@media only screen and (max-width: 575px) {
   .about-table-experience, .about-table-training, .about-table-language  {
     visibility: hidden;
     display: none;
@@ -503,6 +534,21 @@ main {
 }
 
 @media (max-width: 500px) {
+  .personal-description {
+    font-size: 0.5rem;
+  }
+  .experience-icons {
+    font-size: 3rem;
+  }
+  .experience-icon {
+    margin: 0.5rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  h3 {
+    font-size: 0.8rem;
+  }
   .slider-wrapper,
   .slide {
     height: 230px;
@@ -514,6 +560,9 @@ main {
     font-size: 10px;
     margin: 10px auto 15px;
   }
+  .section-about {
+    margin-top: 2rem;
+  }
   .btn-project {
     padding: 3px 7px;
     font-size: 10px;
@@ -522,11 +571,37 @@ main {
 }
 
 @media (max-width: 420px) {
+  .personal-description {
+    font-size: 0.05rem;
+    padding-top: 1.8rem;
+    padding-left: 0.7rem;
+  }
+  .experience-icons {
+    font-size: 2rem;
+  }
+  .experience-icon {
+    margin: 0.3rem;
+  }
+  .main-pages-header {
+    font-size: 2rem;
+  }
+  .about-title {
+    width: 50%;
+  }
+  section ul li {
+    font-size: 0.5rem;
+  }
+  h2 {
+    font-size: 0.7rem;
+  }
+  h3 {
+    font-size: 0.8rem;
+  }
   .welcome-message {
     font-size: 1em;
   }
   .section-about {
-    margin-top: 4.5rem;
+    margin-top: 2rem;
   }
   .nav-link {
     font-size: 1em;
@@ -543,7 +618,7 @@ main {
   }
   .slider-wrapper,
   .slide {
-    height: 150px;
+    height: 200px;
   }
   .tags {
       margin-bottom: -11.5em;
