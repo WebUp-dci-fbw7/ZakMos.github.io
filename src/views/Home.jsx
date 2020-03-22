@@ -69,13 +69,18 @@ class Home extends Component {
             </div>
             <div className="personal-description">
               <h2>Hi, I'm Zakaria..</h2>
-              <p className="lead">I have graduated from Digital Career Institute (DCI) Berlin, as  Web Developer.</p>
-              <p className="lead">I have worked on several projects involving HTML5, CSS3, AJAX, Git, Version Control, Testing, JavaScript, Jquery, React, Redux, NodeJS, MongoDB, MySQL, Express, and I have studied phaser3, PHP, PHP-Laravel, and Angular, Currently I am looking for new challenges as Junior Full Stack Web Developer.
+              <p className="lead">I have graduated from the Digital Career Institute (DCI), Berlin, as a full stack Web Developer.</p>
+              <p className="lead">
+
+
+              I have worked on several projects involving HTML5, CSS3, JavaScript, JQuery, React, Redux, NodeJS, express, MongoDB, MySQL, AJAX, Testing Version Control(Git). I have also studied PHP - Laravel, Phaser3, Angular ad Java, Currently I am looking for new challenges as Junior Full Stack Web Developer, and I have an evening Java course at ReDI School. 
               </p>
               <p className="lead">
               I have more than 16 years experience in IT, Marketing, PR and office fields as Technical coordinator.</p>
               <p className="lead">
               Creativity, motivation, adopting quickly with job or new environment and learning quickly.</p>
+              <p className="lead">
+              Take a look to my old <a href="http://zak.epizy.com/" target="_blank">Portfolio</a></p>
             </div>
           </div>
           <div className="experience-icons">
