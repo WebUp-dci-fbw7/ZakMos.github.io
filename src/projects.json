@@ -1,6 +1,15 @@
 
 [
-	{	"title":"Shopping Cart",
+	{	"title":"Corona Tracker",
+		"description":"Corona Tracker App",
+		"imageUrl":"/images/covid-19.png",
+		"url": "https://co19.netlify.app/",
+		"github": "https://github.com/ZakMos/corona-tracker",
+
+		"tags":["jsx","react", "redux", "javascript", "yarn", "css", "sass", "bootstrap"]
+	},
+	{ 
+		"title":"Shopping Cart",
 		"description":"Shopping Cart",
 		"imageUrl":"/images/ShoppingCart.jpg",
 		"url": "http://zakproject01.epizy.com/",
