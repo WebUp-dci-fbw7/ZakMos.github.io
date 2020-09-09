@@ -51,7 +51,7 @@ class Contact extends Component {
               <h3 className="mb-2">Contact details</h3>
                 <ul className=" list-unstyled list-inline-item">
                   <li className="list-inline-item">
-                    <a href="https://drive.google.com/file/d/1jbgS0EC2GdaGwybuFV3y4QVYVls8_wV8/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1G6Jao6P1JNbMyaVk34aWNjpGxNui2eMd/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                       <button type="button" className="btn btn-primary">
                     <i className="fas fa-envelope pr-1"></i>
                     Download CV</button></a>
