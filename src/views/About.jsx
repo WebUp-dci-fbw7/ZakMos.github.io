@@ -115,6 +115,12 @@ class About extends Component {
             </tr>
           </thead>
           <tbody>
+          <tr>
+              <td>2020 - 4 Month's course</td>
+              <td>Software Development with Java (Intermediate)</td>
+              <td>ReDI School of Digital Integration</td>
+              <td>Berlin - Germany</td>
+            </tr>
             <tr>
               <td>2019 - 3 Month's course</td>
               <td>Competence for Modern world of work</td>
@@ -153,31 +159,41 @@ class About extends Component {
             <Card>
               <CardBody>
                 <ListGroup>
+                <ListGroupItem>
+                    <CardTitle>Software Development with Java (Intermediate)</CardTitle>
+                    <CardSubtitle>2020 - 4 Month's course</CardSubtitle>
+                    ReDI School of Digital Integration, Berlin
+                  </ListGroupItem>
+                  <ListGroupItem>
+                    <CardTitle>Competence for Modern world of work</CardTitle>
+                    <CardSubtitle>2019 - 3 Month's course</CardSubtitle>
+                    MakerLab, Berlin
+                  </ListGroupItem>
                   <ListGroupItem>
                     <CardTitle>Web Development</CardTitle>
                     <CardSubtitle>1-year course 2017-2019</CardSubtitle>
                     DCI Digital Career Institute GmbH, Berlin
-              </ListGroupItem>
+                  </ListGroupItem>
                   <ListGroupItem>
                     <CardTitle>Professional Mentoring program (SINGA Deutschland)</CardTitle>
                     <CardSubtitle>2016</CardSubtitle>
                     Berlin
-              </ListGroupItem>
+                  </ListGroupItem>
                   <ListGroupItem>
                     <CardTitle>Business Writing Skills</CardTitle>
                     <CardSubtitle>2012</CardSubtitle>
                     Riyadh - Saudi Arabia
-              </ListGroupItem>
+                  </ListGroupItem>
                   <ListGroupItem>
                     <CardTitle>How to deal with electronic media</CardTitle>
                     <CardSubtitle>2011</CardSubtitle>
                     Riyadh - Saudi Arabia
-              </ListGroupItem>
+                  </ListGroupItem>
                   <ListGroupItem>
                     <CardTitle>Presentation Skills</CardTitle>
                     <CardSubtitle>2010</CardSubtitle>
                     Riyadh - Saudi Arabia
-              </ListGroupItem>
+                  </ListGroupItem>
                 </ListGroup>
               </CardBody>
             </Card>
