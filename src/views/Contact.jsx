@@ -8,8 +8,15 @@ import {  faInstagram,
 import { faPaperPlane, faRedo } from '@fortawesome/free-solid-svg-icons';
 
 
-class Contact extends Component {
+export default class Contact extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      status: ""
+    };
+  }
   render() {
+    const { status } = this.state;
     return (
       <Fragment>
         <div id="contact"></div>
@@ -18,7 +25,10 @@ class Contact extends Component {
             <h1 className="main-pages-header">Contact</h1>
           </div>
           <div className="tab-pane"></div>
-            <Form className="container mt-1" action="https://formspree.io/z.zza@hotmail.com" method="POST" >
+            <Form 
+              className="container mt-1"
+              action="https://formspree.io/f/xzbkndeb"
+              method="POST" >
               <FormGroup className="row mb-3 mb-sm-0">
                 <Col>
                   <Label for="firstName" className="mr-sm-2">First Name</Label>
@@ -41,17 +51,22 @@ class Contact extends Component {
               </FormGroup>
               <Button className="mr-2" color="secondary" type="reset" value="Reset the form" title="Reset the form">
                 <FontAwesomeIcon icon={faRedo} size="2x"></FontAwesomeIcon>
-                </Button>
-              <Button color="info" type="submit" value="Send" title="Submit the Form">
-                <FontAwesomeIcon icon={faPaperPlane} size="2x"></FontAwesomeIcon>
               </Button>
+
+                {status === "SUCCESS" ? <p>Thanks!</p> :
+                 <Button color="info" type="submit" value="Send" title="Submit the Form">
+                   <FontAwesomeIcon icon={faPaperPlane} size="2x"></FontAwesomeIcon>
+                 </Button>
+                }
+                {status === "ERROR" && <p>Oooops! There was an error.</p>}
             </Form>
+
           <div className="contact-details-follow mt-3">
             <section>
               <h3 className="mb-2">Contact details</h3>
                 <ul className=" list-unstyled list-inline-item">
                   <li className="list-inline-item">
-                    <a href="https://drive.google.com/file/d/1G6Jao6P1JNbMyaVk34aWNjpGxNui2eMd/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1d7IL_CTe7uT79hjT_bDHyEf0q_jQcUF4/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                       <button type="button" className="btn btn-primary">
                     <i className="fas fa-envelope pr-1"></i>
                     Download CV</button></a>
@@ -96,4 +111,3 @@ class Contact extends Component {
 }
 
 
-export default Contact;
