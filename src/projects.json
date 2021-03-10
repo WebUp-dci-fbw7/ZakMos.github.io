@@ -6,7 +6,15 @@
 		"url": "https://co19.netlify.app/",
 		"github": "https://github.com/ZakMos/corona-tracker",
 
-		"tags":["jsx","react", "redux", "javascript", "yarn", "css", "sass", "bootstrap"]
+		"tags":["jsx","ReactJs", "Redux", "Javascript", "sass", "bootstrap"]
+	},
+	{
+		"title": "Mybrary",
+		"description": "Library App, view, add, edit delete Authors, Books, using nodejs express mongodb",
+		"imageUrl": "/images/mybrary.png",
+		"url": "https://node-zak-test.herokuapp.com/",
+		"github": "https://github.com/ZakMos/node-test",
+		"tags": ["NodeJs", "express", "MongoDb", "ejs", "bootstrap"]
 	},
 	{ 
 		"title":"Shopping Cart",
@@ -14,8 +22,7 @@
 		"imageUrl":"/images/ShoppingCart.jpg",
 		"url": "http://zakproject01.epizy.com/",
 		"github": "https://github.com/ZakMos/shopping-cart",
-
-		"tags":["jsx","react", "redux", "javascript", "yarn", "css", "sass", "bootstrap"]
+		"tags":["jsx","ReactJs", "Redux", "Javascript", "sass", "bootstrap"]
 	},
 	{
 		"title": "ToDo App",
@@ -23,7 +30,7 @@
 		"imageUrl": "/images/Todo.jpg",
 		"url": "http://zakmos.epizy.com/?i=1",
 		"github": "https://github.com/ZakMos/todo-live",
-		"tags": ["jsx", "css", "javascript", "React", "redux"]
+		"tags": ["jsx", "css", "Javascript", "React", "Redux"]
 	},
 	{
 		"title": "Markdown Blug",
@@ -38,14 +45,7 @@
 		"imageUrl":"/images/I-lost-my-runner.jpg",
 		"url": "http://ilostmyrunner.epizy.com/",
 		"github": "https://github.com/ZakMos/I-lost-my-runners1",
-		"tags":["Phaser 3","javascript","css","html"]
-	},
-	{	"title":"Quizzards",
-		"description":"A small quiz app",
-		"imageUrl":"/images/Quizzard.jpg",
-		"url":"https://quizzards.netlify.app/",
-		"github": "https://github.com/ZakMos/quizzards",
-		"tags":["OOP","javascript","bootstrap","sass","css","html"]
+		"tags":["Phaser 3","Javascript","css","html"]
 	},
 	{
 		"title": "Authentication",
@@ -53,15 +53,22 @@
 		"imageUrl": "/images/node_passport_Login.png",
 		"url": "https://github.com/ZakMos/node_passport_login",
 		"github": "https://github.com/ZakMos/node_passport_login",
-		"tags": ["NodeJs", "express", "MongoDb", "ejs", "passport", "bcryptjs"]
+		"tags": ["NodeJs", "express", "MongoDb", "ejs", "Passport", "Bcryptjs"]
 	},
 	{
-		"title": "Converter",
-		"description": "Simple App Currency Converter",
-		"imageUrl": "/images/ComingSoon.jpg",
-		"url": "Coming soon",
-		"github": "Coming soon",
-		"tags": ["Coming Soon"]
+		"title": "Mobile Shope",
+		"description": "Mobile repair shope, New project still under construction  ",
+		"imageUrl": "/images/handyHome.png",
+		"url": "https://handyhomes.de/",
+		"github": "https://github.com/ZakMos/handy-home",
+		"tags": ["ReactJs", "jsx", "css"]
+	},
+	{	"title":"Quizzards",
+		"description":"A small quiz app",
+		"imageUrl":"/images/Quizzard.jpg",
+		"url":"https://quizzards.netlify.app/",
+		"github": "https://github.com/ZakMos/quizzards",
+		"tags":["OOP","javascript","bootstrap","sass","css","html"]
 	},
 	{
 		"title": "New Projects!",

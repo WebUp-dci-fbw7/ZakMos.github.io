@@ -3,9 +3,9 @@ import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 import { Badge } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-
+import { faGithub, faInternetExplorer} from '@fortawesome/free-brands-svg-icons';
 import ProjectsClient from "../modules/projectsClient";
+
 const client = new ProjectsClient();
 class Projects extends Component {
   constructor(props){
@@ -41,11 +41,13 @@ class Projects extends Component {
           </div>
             <div>
               <button className="btn-project">
-                <a href={project.url} target="_blank" rel="noopener noreferrer">See project</a>
+                <a href={project.url} target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faInternetExplorer} size="2x"></FontAwesomeIcon>
+                </a>
               </button>
               <button className="btn-project github">
                 <a href={project.github} target="_blank" rel="noopener noreferrer">
-                  <FontAwesomeIcon icon={faGithub} size="1x"></FontAwesomeIcon>
+                  <FontAwesomeIcon icon={faGithub} size="2x"></FontAwesomeIcon>
                 </a>
               </button>
             </div>
