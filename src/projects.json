@@ -52,7 +52,7 @@
 		"description": "Authentication Websites using nodejs express mongodb passport",
 		"imageUrl": "/images/node_passport_Login.png",
 		"url": "https://github.com/ZakMos/node_passport_login",
-		"github": "https://github.com/ZakMos/node_passport_login",
+		"github": "https://node-pass.herokuapp.com/",
 		"tags": ["NodeJs", "express", "MongoDb", "ejs", "Passport", "Bcryptjs"]
 	},
 	{
