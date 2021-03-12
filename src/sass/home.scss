@@ -1,0 +1,73 @@
+// ====== Home Page ====== //
+.main-page {
+    margin-top: 0em;
+    font-style: #fff;
+  }
+  
+  .tab-content {
+    background-color: rgb(37, 32, 32);
+  }
+  .home-img {
+    height: 80%;
+    width: 80%;
+    filter: blur(1px);
+  }
+  .welcome-message {
+    color: #fff;
+    text-shadow: 2px 2px black;
+    font-family: monospace;
+    font-weight: bold;
+    z-index: 10;
+    text-align: center;
+    font-size: 5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .home-personal {
+    color: #fff;
+    margin-top: 5em;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+  }
+  
+  .personal-img {
+    width: 180px;
+    height: 180px;
+  }
+  
+  .personal-description {
+    margin-left: 2em;
+    padding: 1em;
+    border: 2px solid white;
+    border-radius: 50px;
+  }
+  
+  .personal-description h2 {
+    font-family: Avenirnext, sans-serif;
+    font-weight: bold;
+  }
+  
+  .sections {
+    text-align: center;
+    margin-bottom: 6rem;
+  }
+  
+  .experience-icons {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 5rem;
+    padding-bottom: 1rem;
+  }
+  
+  .experience-icon {
+    margin: 2rem;
+  }
+  

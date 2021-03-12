@@ -1,0 +1,20 @@
+  // ====== Contact Page ======= //
+  
+  .section-contact {
+    margin-top: 7.15rem;
+  }
+  
+  .list-inline-item {
+    transition: transform .2s;
+  }
+  
+  .list-inline-item:hover {
+    transform: scale(1.2);
+  }
+  
+  .contact-details-follow {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+  }

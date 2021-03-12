@@ -33,8 +33,8 @@
 		"tags": ["jsx", "css", "Javascript", "React", "Redux"]
 	},
 	{
-		"title": "Markdown Blug",
-		"description": "Simple Markdown blug website",
+		"title": "Markdown Blog",
+		"description": "Simple Markdown blog website",
 		"imageUrl": "/images/blog.jpg",
 		"url": "https://zak-markdown-blog.herokuapp.com/",
 		"github": "https://github.com/ZakMos/markdown-blog",
