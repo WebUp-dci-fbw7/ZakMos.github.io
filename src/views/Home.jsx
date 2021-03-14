@@ -10,11 +10,11 @@ import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView, MDBContainer }
   import { faHtml5, faSass, faJsSquare, faReact, faNode, faPhp, faAngular } from '@fortawesome/free-brands-svg-icons';
 
 class Home extends Component {
-  render() {
+  
+  render() {    
     return (
     <>
-    <div className="background-home-n11">
-      <Container fluid="xxl">
+      <Container className="bg02" fluid="xxl">
         <MDBContainer>
           <MDBCarousel
             activeItem={1}
@@ -65,22 +65,21 @@ class Home extends Component {
           </MDBCarousel>
         </MDBContainer>
       </Container>
-     </div>
 
       <div className="expIconMain">
         <img className="personalImg rounded-circle puff-in-center "
              src={personalPic} alt="Zakaria's-pic" />
-        <FontAwesomeIcon className="expIcon experience-icon-1" icon={faHtml5}     size="5x"></FontAwesomeIcon>
-        <FontAwesomeIcon className="expIcon experience-icon-2" icon={faSass}      size="5x"></FontAwesomeIcon>
-        <FontAwesomeIcon className="expIcon experience-icon-3" icon={faJsSquare}  size="5x"></FontAwesomeIcon>
-        <FontAwesomeIcon className="expIcon experience-icon-4" icon={faReact}     size="5x"></FontAwesomeIcon>
-        <FontAwesomeIcon className="expIcon experience-icon-5" icon={faNode}      size="5x"></FontAwesomeIcon>
-        <FontAwesomeIcon className="expIcon experience-icon-6" icon={faPhp}       size="5x"></FontAwesomeIcon>
-        <FontAwesomeIcon className="expIcon experience-icon-7" icon={faAngular}   size="5x"></FontAwesomeIcon>
+        <FontAwesomeIcon className="expIcon experience-icon-1 fas fa-5x" icon={faHtml5}> </FontAwesomeIcon>
+        <FontAwesomeIcon className="expIcon experience-icon-2 fas fa-5x" icon={faSass}    ></FontAwesomeIcon>
+        <FontAwesomeIcon className="expIcon experience-icon-3 fas fa-5x" icon={faJsSquare}></FontAwesomeIcon>
+        <FontAwesomeIcon className="expIcon experience-icon-4 fas fa-5x" icon={faReact}   ></FontAwesomeIcon>
+        <FontAwesomeIcon className="expIcon experience-icon-5 fas fa-5x" icon={faNode}    ></FontAwesomeIcon>
+        <FontAwesomeIcon className="expIcon experience-icon-6 fas fa-5x" icon={faPhp}     ></FontAwesomeIcon>
+        <FontAwesomeIcon className="expIcon experience-icon-7 fas fa-5x" icon={faAngular} ></FontAwesomeIcon>
       </div>
 
-      <div className="home-personal">
-        <div className="personaDescription background-home-n11">
+      <div className="home-personal bg03">
+        <div className="personaDescription">
           <h2>Hi, I'm Zakaria..</h2>
             <p className="lead">
               I have graduated from the Digital Career Institute (DCI), Berlin, as a full stack Web Developer.
