@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 import Main from './views/Main';
@@ -11,16 +11,16 @@ class App extends Component {
   render() {
     return (
         <Router>
-          <Fragment>
+          <>
             <Header/>
-              < main className = "main-page" >
+              < main>
                 <Switch>
                   <Route exact path="/" component={Main} />
                   <Route component={NotFound} />
                 </Switch>
               </main>
             <Footer />
-          </Fragment>
+          </>
         </Router>
     );
   }

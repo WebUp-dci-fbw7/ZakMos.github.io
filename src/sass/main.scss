@@ -11,6 +11,10 @@
 @import "./footer.scss";
 @import "responsive.scss";
 
+// Variables // 
+$base-color: #fff;
+
+
 // ====== Default Dom Setting ==== //
 html, body {
   margin: 0;
@@ -49,15 +53,11 @@ main {
 
 .top-bar {
   position:fixed;
-  transform: rotate(90deg);
+  cursor: pointer;
+  right: 20px;
+  bottom: 40px;
   z-index: 20;
-  top: 50%;
   align-items: center;
-}
-
-.top-img {
-  background: #fff;
-  border-radius: 50%;
 }
 
 .bg01 {
@@ -73,7 +73,7 @@ main {
 // ====== NotFound Page ====== //
 .not-found {
   background-color: red;
-  color: white;
+  color: $base-color;
   text-align: center;
 }
 

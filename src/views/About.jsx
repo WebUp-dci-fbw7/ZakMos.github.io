@@ -1,6 +1,6 @@
-import React, {Component, Fragment} from 'react';
+import React, {Component} from 'react';
 import { Card, CardTitle, CardSubtitle, CardDeck, CardBody, ListGroup, ListGroupItem } from 'reactstrap';
-import top from '../images/top.png';
+import top from '../images/up.png';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLightbulb, faChartLine, faLanguage } from '@fortawesome/free-solid-svg-icons';
@@ -8,11 +8,11 @@ import { faLightbulb, faChartLine, faLanguage } from '@fortawesome/free-solid-sv
 class About extends Component {
   render() {
     return (
-      <Fragment>
+      <>
         <div id="about"></div>
         <NavLink className="top" to="/#home">
           <img
-            className="top-img animated fadeInUp"
+            className="animated fadeInUp"
             src={top}
             alt="Back to Top"
             title="Back to Top"/>
@@ -268,7 +268,7 @@ class About extends Component {
         </CardDeck>
         </div>
         <div className="line-separator"></div>
-      </Fragment>
+      </>
     );
   }
 }
