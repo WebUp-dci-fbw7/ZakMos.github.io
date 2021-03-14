@@ -111,14 +111,14 @@
     font-weight: 900;
     margin: 0 auto;
     max-width: 840px;
-    color: #FFFFFF;
+    color: var(--base-color);
     font-size: 72px;
     line-height: 1;
     text-shadow: 2px 2px black;
   }
   
   .slider-content .inner p {
-    color: #FFFFFF;
+    color: var(--base-color);
     font-size: 14px;
     line-height: 1.5;
     margin: 20px auto 30px;
@@ -159,7 +159,7 @@
   }
   
   .btn-project:hover, .btn-project a:hover {
-    color: #FFFFFF;
+    color: var(--base-color);
     background: #222222;
     -webkit-filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
     filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));

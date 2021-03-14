@@ -26,7 +26,7 @@ const Header = (props) => {
               </Nav>
                 <Nav className="me-auto" navbar>
                 <NavItem>
-                  <NavLink href="/#about focus-in">About</NavLink>
+                  <NavLink href="/#about">About</NavLink>
                 </NavItem>
               </Nav>
               <Nav className="me-auto" navbar>

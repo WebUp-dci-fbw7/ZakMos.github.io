@@ -12,8 +12,9 @@
 @import "responsive.scss";
 
 // Variables // 
-$base-color: #fff;
-
+:root{
+  --base-color: #fff;
+}
 
 // ====== Default Dom Setting ==== //
 html, body {
@@ -73,7 +74,7 @@ main {
 // ====== NotFound Page ====== //
 .not-found {
   background-color: red;
-  color: $base-color;
+  color: var(--base-color);
   text-align: center;
 }
 

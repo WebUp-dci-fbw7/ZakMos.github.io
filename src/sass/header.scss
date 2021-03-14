@@ -2,15 +2,15 @@
 
 #main-header {
     background: #252020;
-    text-shadow: 5px 5px $base-color;
+    text-shadow: 5px 5px var(--base-color);
     position: sticky;
     top: 0;
     z-index: 100;
   }
   .nav-link {
     font-family: 'Passion One', cursive;
-    color:$base-color;
-    text-shadow: 2px 2px $base-color;
+    color:var(--base-color);
+    text-shadow: 2px 2px var(--base-color);
     font-size: large;
     margin-left: 1em;
   }
