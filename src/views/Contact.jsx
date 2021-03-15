@@ -2,8 +2,8 @@ import React, {Component, Fragment} from 'react';
 import { Col, Button, Form, FormGroup, Label, Input } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faInstagram,
-          faTwitterSquare,
-          faFacebookSquare,
+          faTwitter,
+          faFacebook,
           faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faPaperPlane, faRedo } from '@fortawesome/free-solid-svg-icons';
 
@@ -64,16 +64,17 @@ export default class Contact extends Component {
           <div className="contact-details-follow mt-3">
             <section>
               <h3 className="mb-2">Contact details</h3>
-                <ul className=" list-unstyled list-inline-item">
-                  <li className="list-inline-item">
-                    <a href="https://drive.google.com/file/d/1d7IL_CTe7uT79hjT_bDHyEf0q_jQcUF4/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                      <button type="button" className="btn btn-primary">
+                <ul className=" list-unstyled">
+                  <li>
+                    <a href="https://drive.google.com/file/d/1d7IL_CTe7uT79hjT_bDHyEf0q_jQcUF4/view?usp=sharing" 
+                       className="list-inline-item" target="_blank" rel="noopener noreferrer">
+                      <button type="button" className="btn btn-secondary">
                     <i className="fas fa-envelope pr-1"></i>
                     Download CV</button></a>
                   </li>
-                  <li className="list-inline-item">
-                    <a href="mailto:z.zza@hotmail.com?subject=feedback">
-                        <button type="button" className="btn btn-primary btn-email">
+                  <li >
+                    <a href="mailto:z.zza@hotmail.com?subject=feedback" className="list-inline-item">
+                        <button type="button" className="btn btn-secondary btn-email">
                       <i className="fas fa-enveloper pr-1">
                       </i> Email</button></a>
                   </li>
@@ -81,24 +82,28 @@ export default class Contact extends Component {
             </section>
             <section>
               <h3 className="mb-2">Follow me</h3>
-              <ul className="list-unstyled list-inline-item ">
-                <li className="list-inline-item">
-                  <a href="https://www.instagram.com/zaa_aak/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} size="3x"></FontAwesomeIcon>
-                    </a>
-                </li>
-                <li className="list-inline-item">
-                  <a href="https://twitter.com/zakaria_m" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon icon={faTwitterSquare} size="3x"></FontAwesomeIcon>
+              <ul className="list-unstyled ">
+                <li>
+                  <a href="https://www.instagram.com/zaa_aak/" 
+                     className="list-inline-item fa-3x" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                   </a>
                 </li>
-                <li className="list-inline-item">
-                  <a href="https://www.facebook.com/Zak.Mus" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon icon={faFacebookSquare} size="3x"></FontAwesomeIcon>
+                <li>
+                  <a className="list-inline-item fa-3x" href="https://twitter.com/zakaria_m" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
                   </a>
                 </li>
-                <li className="list-inline-item">
-                  <a href="https://www.linkedin.com/in/zakmos" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon icon={faLinkedin} size="3x"></FontAwesomeIcon>
+                <li>
+                  <a href="https://www.facebook.com/Zak.Mus" 
+                    className="list-inline-item fa-3x" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/zakmos" 
+                     className="list-inline-item fa-3x" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                   </a>
                 </li>
               </ul>
