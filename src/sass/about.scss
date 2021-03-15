@@ -1,7 +1,7 @@
 // ====== About ====== //
 
 .about-title {
-    background: #0d2e42;
+    background: var(--color2);
     color: var(--base-color);
     width: 25%;
     margin: 1rem auto;
@@ -9,7 +9,8 @@
     border-radius: 50px;
   }
   .section-about {
-    margin-top: 2.4rem;
+    margin-top: 3em;
+    margin-bottom: 0;
   }
   
   .about-main-title {
@@ -39,7 +40,7 @@
   }
   
   .line-separator {
-    border: 1px solid black;
+    border: 1px solid var(--color1);
     margin-bottom: 2em;
   }
   

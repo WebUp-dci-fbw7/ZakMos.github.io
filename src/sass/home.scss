@@ -1,9 +1,7 @@
 // ====== Home Page ====== //
   
 .bg02 {
-  background: #ADA996;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: var(--color5);
 }
 
 .home-img {
@@ -15,7 +13,7 @@
 }
 .welcome-message {
   color: var(--base-color);
-  text-shadow: 2px 2px black;
+  text-shadow: 2px 2px var(--color1);
   font-family: monospace;
   font-weight: bold;
   z-index: 10;
@@ -28,22 +26,19 @@
 }
 
 .home-personal {
-  color: #000;
+  color: var(--color1);
   padding: 2em;
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: space-between;
-  background: -webkit-linear-gradient(70deg, #ff6464 40%, #5ac8fa 40%);
-  background: -o-linear-gradient(70deg, #ff6464 40%, #5ac8fa 40%);
-  background: -moz-linear-gradient(70deg, #ff6464 40%, #5ac8fa 40%);
-  background: linear-gradient(70deg, #ff6464 40%, #5ac8fa 40%);
+  background: var(--color4);
 }
 
 .personaDescription {
   margin-left: 2em;
   padding: 1em;
-  border: 2px solid #000;
+  border: 2px solid var(--color1);
   border-radius: 50px;
 }
 
@@ -63,7 +58,7 @@
   justify-content:center;
   margin: auto;
   padding-bottom: 5em;
-  background-color: rgb(37, 32, 32);
+  background-color: var(--color2);
 }
 
 .personalImg {

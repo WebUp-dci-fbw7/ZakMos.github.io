@@ -14,6 +14,11 @@
 // Variables // 
 :root{
   --base-color: #fff;
+  --color1: #000000;
+  --color2: #303030;
+  --color3: #5E5E5E;
+  --color4: #919191;
+  --color5: #C6C6C6;
 }
 
 // ====== Default Dom Setting ==== //
@@ -62,7 +67,7 @@ main {
 }
 
 .bg01 {
-  background: #f2f2f2;
+  background: var(--color5);
 }
 
 .main-pages-header {
