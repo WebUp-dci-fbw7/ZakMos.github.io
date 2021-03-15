@@ -36,7 +36,7 @@ class Projects extends Component {
                 <p>{project.description}</p>
               <div className="tags">
                 {project.tags.map(tag => (
-                  <Badge key={tag} color="primary" pill>{tag}</Badge>
+                  <Badge key={tag} color="dark" pill>{tag}</Badge>
               ))}
           </div>
             <div>
