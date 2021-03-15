@@ -18,7 +18,7 @@
 	},
 	{ 
 		"title":"Shopping Cart",
-		"description":"Shopping Cart",
+		"description":"A shopping cart allows a website’s visitor to view product pages and add items to their basket",
 		"imageUrl":"/images/ShoppingCart.jpg",
 		"url": "http://zakproject01.epizy.com/",
 		"github": "https://github.com/ZakMos/shopping-cart",
