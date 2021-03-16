@@ -1,8 +1,8 @@
 // ====== About ====== //
 
 .about-title {
-    background: var(--color2);
-    color: var(--base-color);
+    background: var(--secondary-black);
+    color: var(--primary-white);
     width: 25%;
     margin: 1rem auto;
     padding: 0.5rem;
@@ -40,7 +40,7 @@
   }
   
   .line-separator {
-    border: 1px solid var(--color1);
+    border: 1px solid var(--primary-black);
     margin-bottom: 2em;
   }
   

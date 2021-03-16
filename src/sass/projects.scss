@@ -111,19 +111,19 @@
   font-weight: 900;
   margin: 0 auto;
   max-width: 840px;
-  color: var(--base-color);
+  color: var(--primary-white);
   font-size: 72px;
   line-height: 1;
-  text-shadow: 5px 5px var(--color1);
+  text-shadow: 5px 5px var(--primary-black);
 }
 
 .slider-content .inner p {
-  color: var(--color1);
+  color: var(--primary-black);
   font-size: 2em;
   line-height: 1.5;
   margin: 20px auto 30px;
   max-width: 640px;
-  text-shadow: 1px 1px var(--base-color);
+  text-shadow: 1px 1px var(--primary-white);
 }
 
 .slider-content .inner button {
@@ -136,8 +136,8 @@
   appearance: none;
   transition: all .5s ease;
   border: none;
-  background: var(--color2);
-  color: var(--base-color);
+  background: var(--secondary-black);
+  color: var(--primary-white);
   border-radius: 30px;
   box-sizing: border-box;
   margin-top: 260px;
@@ -148,12 +148,12 @@
 }
 
 .btn-project a {
-  color: var(--base-color);
+  color: var(--primary-white);
 }
 
 .btn-project:hover, .btn-project a:hover {
-  color: var(--base-color);
-  background: var(--color1);
+  color: var(--primary-white);
+  background: var(--primary-black);
 }
 
 .github {

@@ -15,7 +15,7 @@ const Header = (props) => {
     <>
     <div id="home"></div>
       <div id="main-header" >
-        <Navbar dark  expand="md">
+        <Navbar  expand="md">
           <div className="container">
             <NavbarToggler onClick={toggle} />
             <Collapse isOpen={isOpen} navbar>

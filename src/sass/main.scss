@@ -13,12 +13,12 @@
 
 // Variables // 
 :root{
-  --base-color: #fff;
-  --color1: #000000;
-  --color2: #303030;
-  --color3: #5E5E5E;
-  --color4: #919191;
-  --color5: #C6C6C6;
+  --primary-white: #ffffff;
+  --primary-black: #000000;
+  --secondary-black: #303030;
+  --clr-lightBlack: #5E5E5E;
+  --clr-gray: #919191;
+  --clr-lightGray: #C6C6C6;
 }
 
 // ====== Default Dom Setting ==== //
@@ -29,6 +29,12 @@ html, body {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; 
 }
 
 body {
@@ -67,7 +73,7 @@ main {
 }
 
 .bg01 {
-  background: var(--color5);
+  background: var(--clr-lightGray);
 }
 
 .main-pages-header {
@@ -79,7 +85,7 @@ main {
 // ====== NotFound Page ====== //
 .not-found {
   background-color: red;
-  color: var(--base-color);
+  color: var(--primary-white);
   text-align: center;
 }
 

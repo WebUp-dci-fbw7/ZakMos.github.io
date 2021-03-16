@@ -1,7 +1,7 @@
 // ====== Home Page ====== //
   
 .bg02 {
-  background: var(--color5);
+  background: var(--clr-lightGray);
 }
 
 .home-img {
@@ -12,8 +12,8 @@
   border-radius: 25px;
 }
 .welcome-message {
-  color: var(--base-color);
-  text-shadow: 2px 2px var(--color1);
+  color: var(--primary-white);
+  text-shadow: 2px 2px var(--primary-black);
   font-family: monospace;
   font-weight: bold;
   z-index: 10;
@@ -26,19 +26,19 @@
 }
 
 .home-personal {
-  color: var(--color1);
+  color: var(--primary-black);
   padding: 2em;
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: space-between;
-  background: var(--color4);
+  background: var(--clr-gray);
 }
 
 .personaDescription {
   margin-left: 2em;
   padding: 1em;
-  border: 2px solid var(--color1);
+  border: 2px solid var(--primary-black);
   border-radius: 50px;
 }
 
@@ -58,7 +58,7 @@
   justify-content:center;
   margin: auto;
   padding-bottom: 5em;
-  background-color: var(--color2);
+  background-color: var(--secondary-black);
 }
 
 .personalImg {
@@ -70,7 +70,7 @@
 
 .expIcon {
   position: absolute;
-  color: var(--base-color);
+  color: var(--primary-white);
 }
 
 
