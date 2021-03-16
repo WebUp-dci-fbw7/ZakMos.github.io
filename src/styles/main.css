@@ -10007,14 +10007,6 @@ a.text-dark:hover, a.text-dark:focus {
 .experience-icon-7 {
   margin: 1.5em 0 0 -2em; }
 
-.about-title {
-  background: var(--secondary-black);
-  color: var(--primary-white);
-  width: 25%;
-  margin: 1rem auto;
-  padding: 0.5rem;
-  border-radius: 50px; }
-
 .section-about {
   margin-top: 3em;
   margin-bottom: 0; }
@@ -10022,6 +10014,17 @@ a.text-dark:hover, a.text-dark:focus {
 .about-main-title {
   text-align: center;
   align-items: center; }
+
+.about-title {
+  background: var(--secondary-black);
+  color: var(--primary-white);
+  width: 75%;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  border-radius: 50px; }
+
+.about-icons {
+  margin-left: 1em; }
 
 .about-table-experience {
   margin: 1rem;
@@ -10118,23 +10121,19 @@ a.text-dark:hover, a.text-dark:focus {
   text-indent: -9999px;
   cursor: pointer; }
 
-.previousButton:hover,
-.nextButton:hover {
-  background: url("../images/arrow-right.png") no-repeat center center/20px; }
-
 .previousButton {
-  left: 0;
+  left: 2em;
   -webkit-transform: rotate(180deg) translateY(calc(50% + 0px));
   transform: rotate(180deg) translateY(calc(50% + 0px)); }
 
 .previousButton:hover {
-  left: -10px; }
+  left: 1em; }
 
 .nextButton {
-  right: 0; }
+  right: 2em; }
 
 .nextButton:hover {
-  right: -10px; }
+  right: 1em; }
 
 .slider-content {
   text-align: center; }
@@ -10202,7 +10201,7 @@ a.text-dark:hover, a.text-dark:focus {
   background: var(--primary-black); }
 
 .github {
-  margin-left: 1em; }
+  margin-left: 2em; }
 
 .footer {
   background: var(--secondary-black);
@@ -10230,9 +10229,11 @@ a.text-dark:hover, a.text-dark:focus {
   .slide {
     height: 500px; }
   .slider-content .inner h1 {
-    font-size: 64px; }
-  .tags {
-    margin-bottom: -5em; } }
+    font-size: 3em;
+    text-shadow: 3px 3px var(--primary-black); }
+  .btn-project {
+    margin-top: 2em;
+    font-size: 0.5em; } }
 
 @media (max-width: 768px) {
   .home-personal {
@@ -10244,15 +10245,9 @@ a.text-dark:hover, a.text-dark:focus {
     font-size: 1.5rem; }
   .slider-wrapper,
   .slide {
-    height: 400px; }
-  .tags {
-    margin-bottom: -9em; }
-  .btn-project {
-    padding: 10px 20px; }
-  .slider-content .inner h1 {
-    font-size: 50px; } }
+    height: 400px; } }
 
-@media (max-width: 576px) {
+@media (max-width: 620px) {
   .welcome-message {
     font-size: 2em; }
   h2 {
@@ -10262,10 +10257,15 @@ a.text-dark:hover, a.text-dark:focus {
   .slider-wrapper,
   .slide {
     height: 300px; }
-  .btn-project {
-    padding: 7px 15px; }
   .slider-content .inner h1 {
-    font-size: 35px; }
+    font-size: 1.5em;
+    text-shadow: 1px 1px var(--primary-black); }
+  .btn-project {
+    margin-top: 3em;
+    font-size: 0.5em; }
+  .slider-content .inner p {
+    font-size: 1em;
+    font-weight: 200; }
   .about-table-experience, .about-table-training, .about-table-language {
     visibility: hidden;
     display: none; }
@@ -10283,20 +10283,20 @@ a.text-dark:hover, a.text-dark:focus {
     font-size: 1rem; }
   h3 {
     font-size: 0.8rem; }
+  .slider-content .inner h1 {
+    font-size: 1.5em; }
+  .btn-project {
+    margin-top: 1em;
+    font-size: 0.4em;
+    padding: 2em; }
+  .slider-content .inner p {
+    font-size: 0.8em;
+    font-weight: 200; }
   .slider-wrapper,
   .slide {
     height: 230px; }
-  .slider-content .inner h1 {
-    font-size: 21px; }
-  .slider-content .inner p {
-    font-size: 10px;
-    margin: 10px auto 15px; }
   .section-about {
-    margin-top: 2rem; }
-  .btn-project {
-    padding: 3px 7px;
-    font-size: 10px;
-    margin-top: 23em; } }
+    margin-top: 2rem; } }
 
 @media (max-width: 420px) {
   .personal-description {
@@ -10312,7 +10312,7 @@ a.text-dark:hover, a.text-dark:focus {
   .main-pages-header {
     font-size: 2rem; }
   .about-title {
-    width: 50%; }
+    font-size: 1em; }
   section ul li {
     font-size: 0.5rem; }
   h2 {
@@ -10330,17 +10330,13 @@ a.text-dark:hover, a.text-dark:focus {
   .slider-wrapper,
   .slide {
     height: 200px; }
-  .tags {
-    margin-bottom: -11.5em;
-    font-size: 75%; }
   .slider-content .inner h1 {
     font-size: 12px; }
   .slider-content .inner p {
     margin: 5px auto 7px; }
   .btn-project {
-    padding: 3px 7px;
-    font-size: 8px;
-    margin-top: 23em; } }
+    font-size: 0.2em;
+    margin-top: 1em; } }
 
 .lds-roller {
   display: inline-block;

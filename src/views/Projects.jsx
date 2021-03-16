@@ -1,4 +1,4 @@
-import React, {Component, Fragment} from 'react';
+import React, {Component} from 'react';
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 import { Badge } from 'reactstrap';
@@ -21,7 +21,7 @@ class Projects extends Component {
   }
   render(){
     return(
-      <Fragment>
+      <>
         <div id="projects"></div>
         <div className="sections section-projects">
           <h1 className="main-pages-header">Projects</h1>
@@ -33,7 +33,7 @@ class Projects extends Component {
               <img className="project-img" src={project.imageUrl} alt="Projects" />
               <div className="inner">
                 <h1>{project.title}</h1>
-                <p>{project.description}</p>
+                <p className="projectDescription">{project.description}</p>
               <div className="tags">
                 {project.tags.map(tag => (
                   <Badge key={tag} color="dark" pill>{tag}</Badge>
@@ -41,20 +41,20 @@ class Projects extends Component {
           </div>
             <div>
               <button className="btn-project">
-                <a href={project.url} target="_blank" rel="noopener noreferrer">
-                  <FontAwesomeIcon icon={faInternetExplorer} size="2x"></FontAwesomeIcon>
+                <a href={project.url} className="fa-3x" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faInternetExplorer}></FontAwesomeIcon>
                 </a>
               </button>
               <button className="btn-project github">
-                <a href={project.github} target="_blank" rel="noopener noreferrer">
-                  <FontAwesomeIcon icon={faGithub} size="2x"></FontAwesomeIcon>
+                <a href={project.github} className="fa-3x" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
                 </a>
               </button>
             </div>
           </div>
         </div>))}
         </Slider>
-      </Fragment>
+      </>
       );
     }
 }
