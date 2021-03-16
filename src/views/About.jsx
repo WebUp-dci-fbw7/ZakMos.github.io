@@ -22,8 +22,9 @@ class About extends Component {
         </div>
         <div>
           <div className="about-main-title">
-            <h2 className="about-title">Experience</h2>
-            <FontAwesomeIcon icon={faChartLine} size="3x"></FontAwesomeIcon>
+            <h2 className="about-title fa-2x">Experience  
+              <FontAwesomeIcon className="about-icons" icon={faChartLine}></FontAwesomeIcon>
+            </h2>
           </div>
             <table className="table about-table-experience">
             <thead className="thead-dark">
@@ -36,10 +37,17 @@ class About extends Component {
               </tr>
             </thead>
             <tbody>
+            <tr>
+                <td>2019-2020</td>
+                <td>Arabic Teacher and Cooperation for Web-App “HSH4You”</td>
+                <td>External investment Dept.</td>
+                <td>SozDia Jungendhilfe,Bildung und Arbeit gGmbH</td>
+                <td>Berlin - Germany</td>
+              </tr>
               <tr>
                 <td>2011-2015</td>
                 <td>Office GM Executive Secretary</td>
-                <td>External investment Dept.</td>
+                <td>Volunteer work</td>
                 <td>The National Agricultural Dev. Co NADEC</td>
                 <td>Riyadh - Saudi Arabia</td>
               </tr>
@@ -98,11 +106,11 @@ class About extends Component {
           </Card>
         </CardDeck>
         </div>
-        <div className="bg01">
-        <div className="line-separator"></div>
+        <div className="line-separator bg01"></div>
         <div className="about-main-title">
-          <h2 className="about-title">Training</h2>
-          <FontAwesomeIcon icon={faLightbulb} size="3x"></FontAwesomeIcon>
+          <h2 className="about-title fa-2x">Education and Training
+            <FontAwesomeIcon className="about-icons" icon={faLightbulb}></FontAwesomeIcon>
+          </h2>
         </div>
         <div>
         <table className="table about-table-training">
@@ -140,16 +148,34 @@ class About extends Component {
               <td>Berlin - Germany</td>
             </tr>
             <tr>
-              <td>2012</td>
+              <td>2013</td>
               <td>Business Writing Skills</td>
-              <td></td>
+              <td>Mind Core</td>
               <td>Riyadh - Saudi Arabia</td>
             </tr>
             <tr>
-              <td>2010</td>
+              <td>2013</td>
               <td>Presentation Skills</td>
-              <td></td>
+              <td>Almanar Management Consultancy</td>
               <td>Riyadh - Saudi Arabia</td>
+            </tr>
+            <tr>
+              <td>1999</td>
+              <td>Diploma in Computer (Corel Draw)</td>
+              <td>Republic Institute</td>
+              <td>ِAleppo - Syria</td>
+            </tr>
+            <tr>
+              <td>1998</td>
+              <td>The national program for the dissemination of IT</td>
+              <td>Syrian Computer Society</td>
+              <td>ِAleppo - Syria</td>
+            </tr>
+            <tr>
+              <td>1993</td>
+              <td>THigh School at Aleppo Academy</td>
+              <td></td>
+              <td>ِAleppo - Syria</td>
             </tr>
           </tbody>
         </table>
@@ -200,10 +226,10 @@ class About extends Component {
           </CardDeck>
         </div>
         <div className="line-separator"></div>
-        </div>
         <div className="about-main-title">
-          <h2 className="about-title">Languages</h2>
-          <FontAwesomeIcon icon={faLanguage} size="3x"></FontAwesomeIcon>
+          <h2 className="about-title fa-2x">Languages
+            <FontAwesomeIcon className="about-icons" icon={faLanguage}></FontAwesomeIcon>
+          </h2>
         </div>
         <div className="table about-table-language">
           <table className="table">
@@ -272,6 +298,5 @@ class About extends Component {
     );
   }
 }
-
 
 export default About;
