@@ -1,4 +1,4 @@
-import React, {Component, Fragment} from 'react';
+import React, {Component} from 'react'
 import { Col, Button, Form, FormGroup, Label, Input } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faInstagram,
@@ -6,8 +6,6 @@ import {  faInstagram,
           faFacebook,
           faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faPaperPlane, faRedo } from '@fortawesome/free-solid-svg-icons';
-
-
 export default class Contact extends Component {
   constructor(props) {
     super(props);
@@ -18,7 +16,7 @@ export default class Contact extends Component {
   render() {
     const { status } = this.state;
     return (
-      <Fragment>
+      <>
         <div id="contact"></div>
         <div className="bg01">
           <div className="sections section-contact">
@@ -49,13 +47,13 @@ export default class Contact extends Component {
                 <Input type="email" name="_replyto" id="Email" placeholder="Enter your E-mail" required/>
                 </Col>
               </FormGroup>
-              <Button className="mr-2" color="secondary" type="reset" value="Reset the form" title="Reset the form">
-                <FontAwesomeIcon icon={faRedo} size="2x"></FontAwesomeIcon>
+              <Button className="mr-2 fa-2x" color="secondary" type="reset" value="Reset the form" title="Reset the form">
+                <FontAwesomeIcon icon={faRedo}></FontAwesomeIcon>
               </Button>
 
                 {status === "SUCCESS" ? <p>Thanks!</p> :
-                 <Button color="info" type="submit" value="Send" title="Submit the Form">
-                   <FontAwesomeIcon icon={faPaperPlane} size="2x"></FontAwesomeIcon>
+                 <Button className="fa-2x"color="info" type="submit" value="Send" title="Submit the Form">
+                   <FontAwesomeIcon icon={faPaperPlane}></FontAwesomeIcon>
                  </Button>
                 }
                 {status === "ERROR" && <p>Oooops! There was an error.</p>}
@@ -66,7 +64,7 @@ export default class Contact extends Component {
               <h3 className="mb-2">Contact details</h3>
                 <ul className=" list-unstyled">
                   <li>
-                    <a href="https://drive.google.com/file/d/1d7IL_CTe7uT79hjT_bDHyEf0q_jQcUF4/view?usp=sharing" 
+                    <a href="https://drive.google.com/file/d/1Rtz52w9dm8ZZ1AmcPAIv6Ihb6qocm0vH/view?usp=sharing" 
                        className="list-inline-item" target="_blank" rel="noopener noreferrer">
                       <button type="button" className="btn btn-secondary">
                     <i className="fas fa-envelope pr-1"></i>
@@ -110,7 +108,7 @@ export default class Contact extends Component {
             </section>
           </div>
         </div>
-      </Fragment>
+      </>
     );
   }
 }
