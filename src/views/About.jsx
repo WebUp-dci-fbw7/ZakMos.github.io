@@ -4,7 +4,6 @@ import top from '../images/up.png';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLightbulb, faChartLine, faLanguage } from '@fortawesome/free-solid-svg-icons';
-
 class About extends Component {
   render() {
     return (
@@ -73,7 +72,6 @@ class About extends Component {
                 <td>Aleppo - Syria</td>
               </tr>
             </tbody>
-
           </table>
         </div>
         <div className="about-table-responsive">
@@ -84,7 +82,7 @@ class About extends Component {
               <ListGroupItem>
                   <CardTitle>Arabic Teacher and Cooperation for Web-App “HSH4You”</CardTitle>
                   <CardSubtitle>2019-2020</CardSubtitle>
-                  Volunteer work - Saudi Arabia SozDia Jungendhilfe,Bildung und Arbeit gGmbH
+                  Volunteer work - SozDia Jungendhilfe,Bildung und Arbeit gGmbH Berlin Germany
                 </ListGroupItem>
                 <ListGroupItem>
                   <CardTitle>Office GM Executive Secretary </CardTitle>
@@ -102,7 +100,7 @@ class About extends Component {
                   (Agri Sector) in The National Agricultural Dev. Co NADEC / Riyadh - Saudi Arabia
                 </ListGroupItem>
                 <ListGroupItem>
-                  <CardTitle>IT helpdesk</CardTitle>
+                  <CardTitle>IT Helpdesk</CardTitle>
                   <CardSubtitle>1997-2001</CardSubtitle>
                   (Al-Zahara for Computer) / Aleppo - Syria
                 </ListGroupItem>
