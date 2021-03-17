@@ -37,17 +37,17 @@ class About extends Component {
               </tr>
             </thead>
             <tbody>
-            <tr>
+            <tr> 
                 <td>2019-2020</td>
                 <td>Arabic Teacher and Cooperation for Web-App “HSH4You”</td>
-                <td>External investment Dept.</td>
+                <td>Volunteer work</td>
                 <td>SozDia Jungendhilfe,Bildung und Arbeit gGmbH</td>
                 <td>Berlin - Germany</td>
               </tr>
               <tr>
                 <td>2011-2015</td>
                 <td>Office GM Executive Secretary</td>
-                <td>Volunteer work</td>
+                <td>External investment Dept.</td>
                 <td>The National Agricultural Dev. Co NADEC</td>
                 <td>Riyadh - Saudi Arabia</td>
               </tr>
@@ -81,6 +81,11 @@ class About extends Component {
           <Card>
             <CardBody>
               <ListGroup>
+              <ListGroupItem>
+                  <CardTitle>Arabic Teacher and Cooperation for Web-App “HSH4You”</CardTitle>
+                  <CardSubtitle>2019-2020</CardSubtitle>
+                  Volunteer work - Saudi Arabia SozDia Jungendhilfe,Bildung und Arbeit gGmbH
+                </ListGroupItem>
                 <ListGroupItem>
                   <CardTitle>Office GM Executive Secretary </CardTitle>
                   <CardSubtitle>2011-2015</CardSubtitle>
@@ -160,6 +165,12 @@ class About extends Component {
               <td>Riyadh - Saudi Arabia</td>
             </tr>
             <tr>
+              <td>2011</td>
+              <td>How to deal with electronic media</td>
+              <td>Hail Chamber of Commerce and Industry</td>
+              <td>Hail - Saudi Arabia</td>
+            </tr>
+            <tr>
               <td>1999</td>
               <td>Diploma in Computer (Corel Draw)</td>
               <td>Republic Institute</td>
@@ -173,7 +184,7 @@ class About extends Component {
             </tr>
             <tr>
               <td>1993</td>
-              <td>THigh School at Aleppo Academy</td>
+              <td>High School studies at Aleppo Academy</td>
               <td></td>
               <td>ِAleppo - Syria</td>
             </tr>
@@ -197,7 +208,7 @@ class About extends Component {
                   </ListGroupItem>
                   <ListGroupItem>
                     <CardTitle>Web Development</CardTitle>
-                    <CardSubtitle>1-year course 2017-2019</CardSubtitle>
+                    <CardSubtitle>1-year course 2018</CardSubtitle>
                     DCI Digital Career Institute GmbH, Berlin
                   </ListGroupItem>
                   <ListGroupItem>
@@ -207,18 +218,33 @@ class About extends Component {
                   </ListGroupItem>
                   <ListGroupItem>
                     <CardTitle>Business Writing Skills</CardTitle>
-                    <CardSubtitle>2012</CardSubtitle>
+                    <CardSubtitle>2013</CardSubtitle>
+                    Riyadh - Saudi Arabia
+                  </ListGroupItem>
+                  <ListGroupItem>
+                    <CardTitle>Presentation Skills</CardTitle>
+                    <CardSubtitle>2013</CardSubtitle>
                     Riyadh - Saudi Arabia
                   </ListGroupItem>
                   <ListGroupItem>
                     <CardTitle>How to deal with electronic media</CardTitle>
                     <CardSubtitle>2011</CardSubtitle>
-                    Riyadh - Saudi Arabia
+                    Hail - Saudi Arabia
                   </ListGroupItem>
                   <ListGroupItem>
-                    <CardTitle>Presentation Skills</CardTitle>
-                    <CardSubtitle>2010</CardSubtitle>
-                    Riyadh - Saudi Arabia
+                    <CardTitle>Diploma in Computer (Corel Draw)</CardTitle>
+                    <CardSubtitle>1999</CardSubtitle>
+                    Aleppo - Syria
+                  </ListGroupItem>
+                  <ListGroupItem>
+                    <CardTitle>The national program for the dissemination of IT</CardTitle>
+                    <CardSubtitle>1998</CardSubtitle>
+                    Aleppo - Syria
+                  </ListGroupItem>
+                  <ListGroupItem>
+                    <CardTitle>High School studies Aleppo Academy</CardTitle>
+                    <CardSubtitle>1993</CardSubtitle>
+                    Aleppo - Syria
                   </ListGroupItem>
                 </ListGroup>
               </CardBody>
