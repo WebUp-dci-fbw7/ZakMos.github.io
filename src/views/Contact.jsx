@@ -3,7 +3,7 @@ import { Col, Button, Form, FormGroup, Label, Input } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faInstagram,
           faTwitter,
-          faFacebook,
+          faCodepen,
           faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faPaperPlane, faRedo } from '@fortawesome/free-solid-svg-icons';
 export default class Contact extends Component {
@@ -64,7 +64,7 @@ export default class Contact extends Component {
               <h3 className="mb-2">Contact details</h3>
                 <ul className=" list-unstyled">
                   <li>
-                    <a href="https://drive.google.com/file/d/1Rtz52w9dm8ZZ1AmcPAIv6Ihb6qocm0vH/view?usp=sharing" 
+                    <a href="https://drive.google.com/file/d/1G6Jao6P1JNbMyaVk34aWNjpGxNui2eMd/view?usp=sharing" 
                        className="list-inline-item" target="_blank" rel="noopener noreferrer">
                       <button type="button" className="btn btn-secondary">
                     <i className="fas fa-envelope pr-1"></i>
@@ -93,9 +93,9 @@ export default class Contact extends Component {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.facebook.com/Zak.Mus" 
+                  <a href="https://codepen.io/ZakMos" 
                     className="list-inline-item fa-3x" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
+                    <FontAwesomeIcon icon={faCodepen}></FontAwesomeIcon>
                   </a>
                 </li>
                 <li>
