@@ -20,7 +20,7 @@
 		"title":"Shopping Cart",
 		"description":"A shopping cart allows a website’s visitor to view product pages and add items to their basket",
 		"imageUrl":"/images/ShoppingCart.jpg",
-		"url": "http://zakproject01.epizy.com/",
+		"url": "zak-shoppingcart.netlify.app/",
 		"github": "https://github.com/ZakMos/shopping-cart",
 		"tags":["jsx","ReactJs", "Redux", "Javascript", "sass", "bootstrap"]
 	},
@@ -28,7 +28,7 @@
 		"title": "ToDo App",
 		"description": "Simple App Todo List Application",
 		"imageUrl": "/images/Todo.jpg",
-		"url": "http://zakmos.epizy.com/?i=1",
+		"url": "https://todo-live.netlify.app/",
 		"github": "https://github.com/ZakMos/todo-live",
 		"tags": ["jsx", "css", "Javascript", "React", "Redux"]
 	},
@@ -43,7 +43,7 @@
 	{	"title":"I Lost My Runner",
 		"description":"A funny Running Man Game using Phaser 3",
 		"imageUrl":"/images/I-lost-my-runner.jpg",
-		"url": "http://ilostmyrunner.epizy.com/",
+		"url": "https://ilostmyrunner.netlify.app/",
 		"github": "https://github.com/ZakMos/I-lost-my-runners1",
 		"tags":["Phaser 3","Javascript","css","html"]
 	},
@@ -51,8 +51,8 @@
 		"title": "Authentication",
 		"description": "Authentication Websites using nodejs express mongodb passport",
 		"imageUrl": "/images/node_passport_Login.png",
-		"url": "https://github.com/ZakMos/node_passport_login",
-		"github": "https://node-pass.herokuapp.com/",
+		"url": "https://node-pass.herokuapp.com/",
+		"github": "https://github.com/ZakMos/node_passport_login",
 		"tags": ["NodeJs", "express", "MongoDb", "ejs", "Passport", "Bcryptjs"]
 	},
 	{
