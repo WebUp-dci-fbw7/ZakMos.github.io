@@ -66,7 +66,7 @@ class About extends Component {
               </tr>
               <tr>
                 <td>1997-2001</td>
-                <td>IT Helpdesk</td>
+                <td>IT Technician</td>
                 <td>Maintenance Dept.</td>
                 <td>Al-Zahra for Computer</td>
                 <td>Aleppo - Syria</td>
@@ -100,7 +100,7 @@ class About extends Component {
                   (Agri Sector) in The National Agricultural Dev. Co NADEC / Riyadh - Saudi Arabia
                 </ListGroupItem>
                 <ListGroupItem>
-                  <CardTitle>IT Helpdesk</CardTitle>
+                  <CardTitle>IT Technician</CardTitle>
                   <CardSubtitle>1997-2001</CardSubtitle>
                   (Al-Zahara for Computer) / Aleppo - Syria
                 </ListGroupItem>

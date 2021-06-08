@@ -66,13 +66,13 @@ export default class Contact extends Component {
                   <li>
                     <a href="https://drive.google.com/file/d/1G6Jao6P1JNbMyaVk34aWNjpGxNui2eMd/view?usp=sharing" 
                        className="list-inline-item" target="_blank" rel="noopener noreferrer">
-                      <button type="button" className="btn btn-secondary">
+                      <button type="button" className="contact-link btn btn-secondary">
                     <i className="fas fa-envelope pr-1"></i>
                     Download CV</button></a>
                   </li>
                   <li >
                     <a href="mailto:z.zza@hotmail.com?subject=feedback" className="list-inline-item">
-                        <button type="button" className="btn btn-secondary btn-email">
+                        <button type="button" className="contact-link btn btn-secondary btn-email">
                       <i className="fas fa-enveloper pr-1">
                       </i> Email</button></a>
                   </li>
@@ -83,24 +83,24 @@ export default class Contact extends Component {
               <ul className="list-unstyled ">
                 <li>
                   <a href="https://www.instagram.com/zaa_aak/" 
-                     className="list-inline-item fa-3x" target="_blank" rel="noopener noreferrer">
+                     className="list-inline-item fa-3x social-link" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                   </a>
                 </li>
                 <li>
-                  <a className="list-inline-item fa-3x" href="https://twitter.com/zakaria_m" target="_blank" rel="noopener noreferrer">
+                  <a className="list-inline-item fa-3x social-link" href="https://twitter.com/zakaria_m" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
                   </a>
                 </li>
                 <li>
                   <a href="https://codepen.io/ZakMos" 
-                    className="list-inline-item fa-3x" target="_blank" rel="noopener noreferrer">
+                    className="list-inline-item fa-3x social-link" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faCodepen}></FontAwesomeIcon>
                   </a>
                 </li>
                 <li>
                   <a href="https://www.linkedin.com/in/zakmos" 
-                     className="list-inline-item fa-3x" target="_blank" rel="noopener noreferrer">
+                     className="list-inline-item fa-3x social-link" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                   </a>
                 </li>

@@ -82,10 +82,10 @@ class Home extends Component {
         <div className="personaDescription">
           <h2>Hi, I'm Zakaria..</h2>
             <p className="lead">
-              I have graduated from the Digital Career Institute (DCI), Berlin, as a full stack Web Developer.
+              I have graduated from the Digital Career Institute (DCI), Berlin, as a full stack Web Developer, also as a Software Developer (Java)  at ReDI School
             </p>
             <p className="lead">
-              I have worked on several projects involving HTML5, CSS3, JavaScript, JQuery, React, Redux, NodeJS, express, MongoDB, MySQL, AJAX, Testing Version Control(Git). I have also studied PHP - Laravel, Phaser3, Angular ad Java, Currently I am looking for new challenges as Junior Full Stack Web Developer, and I have an evening Java course at ReDI School.
+              I have worked on several projects involving HTML5, CSS3, JavaScript, JQuery, React, Redux, NodeJS, express, MongoDB, MySQL, AJAX, Testing Version Control(Git). I have also studied PHP - Laravel, AWS, IOT, Phaser3, Angular and Java, Currently I am looking for new challenges as Junior Full Stack Web Developer.
             </p>
             <p className="lead">
               I have more than 16 years experience in IT, Marketing, PR and office fields as Technical coordinator.
