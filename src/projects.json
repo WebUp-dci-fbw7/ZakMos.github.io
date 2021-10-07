@@ -69,13 +69,5 @@
 		"url":"https://quizzards.netlify.app/",
 		"github": "https://github.com/ZakMos/quizzards",
 		"tags":["OOP","javascript","bootstrap","sass","css","html"]
-	},
-	{
-		"title": "New Projects!",
-		"description": "More new Projects coming soon",
-		"imageUrl": "/images/ComingSoon.jpg",
-		"url": "Coming soon",
-		"github": "Coming soon",
-		"tags": ["Coming Soon"]
 	}
 ]

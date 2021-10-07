@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import { Container } from 'reactstrap';
 import personalPic from '../images/zakaria-pic.jpg';
-import newProjects from '../images/NewProject.jpg';
 import welcomeMsg from '../images/dci05.jpg';
 import niceDay from '../images/dci03.jpg';
 import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView, MDBContainer } from
@@ -18,7 +17,7 @@ class Home extends Component {
         <MDBContainer>
           <MDBCarousel
             activeItem={1}
-            length={3}
+            length={2}
             showControls={false}
             showIndicators={false}
             className="z-depth-1"
@@ -37,19 +36,8 @@ class Home extends Component {
                 </h2>
                 </MDBView>
               </MDBCarouselItem>
+
               <MDBCarouselItem itemId="2">
-                <MDBView>
-                  <img
-                    className="home-img"
-                    src={newProjects}
-                    alt="New Projects"
-                    />
-                </MDBView>
-                <h2 className="welcome-message text-focus-in">
-                  New Projects Coming Soon
-                </h2>
-              </MDBCarouselItem>
-              <MDBCarouselItem itemId="3">
                 <MDBView>
                   <img
                     className="home-img"
