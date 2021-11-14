@@ -39,6 +39,13 @@ class About extends Component {
             <tr> 
                 <td>2021- present</td>
                 <td>Web developer</td>
+                <td>Minijob</td>
+                <td>Zahnzentrum Dr. Hijazi</td>
+                <td>Berlin - Germany</td>
+              </tr>
+            <tr> 
+                <td>2021- present</td>
+                <td>Web developer</td>
                 <td>Volunteer work</td>
                 <td>AlKawakibi e.v Verein</td>
                 <td>Berlin - Germany</td>
@@ -277,7 +284,7 @@ class About extends Component {
               </tr>
               <tr>
                 <td>Deutsch</td>
-                <td>B1</td>
+                <td>B1-B2</td>
               </tr>
               <tr>
                 <td>Kurdish</td>
