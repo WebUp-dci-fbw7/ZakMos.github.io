@@ -1,6 +1,6 @@
 {
   "name": "Zakaria-Portfolio",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "private": true,
   "homepage": "https://ZakMos.github.io",
   "description": "Zakaria's Portfolio",
@@ -8,33 +8,13 @@
   "author": "Zakaria Moslim",
   "license": "MIT",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.34",
-    "@fortawesome/free-brands-svg-icons": "^5.15.2",
-    "@fortawesome/free-regular-svg-icons": "^5.15.2",
-    "@fortawesome/free-solid-svg-icons": "^5.15.2",
-    "@fortawesome/react-fontawesome": "^0.1.14",
-    "ajv": "^6.12.6",
-    "bootstrap": "^4.6.0",
-    "caniuse-lite": "^1.0.30001265",
-    "jquery": "^3.6.0",
-    "material-ui-pickers": "^2.2.4",
-    "mdbreact": "^4.27.0",
-    "react": "^16.14.0",
-    "react-animated-slider": "^2.0.0",
-    "react-bootstrap": "^1.5.1",
-    "react-dom": "^16.14.0",
-    "react-load-script": "^0.0.6",
-    "react-mdl": "^2.1.0",
-    "react-redux": "^7.2.2",
-    "react-router": "^5.2.0",
-    "react-router-dom": "^5.2.0",
-    "react-router-hash-link": "^2.4.0",
-    "react-scroll": "^1.8.2",
-    "react-spring": "^8.0.27",
-    "reactstrap": "^6.5.0",
-    "redux": "^4.0.5",
-    "sass": "^1.32.8",
-    "waypoints": "^4.0.1"
+    "gh-pages": "^4.0.0",
+    "node-sass-chokidar": "^1.5.0",
+    "npm-run-all": "^4.1.5",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -42,18 +22,16 @@
     "build-css": "node-sass-chokidar src/sass -o src/styles",
     "watch-css": "npm run build-css && node-sass-chokidar src/sass -o src/styles --watch --recursive",
     "start": "npm-run-all -p watch-css start-js",
-    "build": "npm-run-all build-css build-js",
+    "build": "react-scripts build",
     "start-js": "react-scripts start",
     "build-js": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "devDependencies": {
-    "gh-pages": "^1.2.0",
-    "node-sass-chokidar": "^1.5.0",
-    "npm-run-all": "^4.1.5",
-    "react-script": "^2.0.5",
-    "react-scripts": "^4.0.3"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
