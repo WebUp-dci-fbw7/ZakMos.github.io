@@ -1,9 +1,25 @@
+import React from 'react';
+import Header from './components/header/Header';
+import Nav from './components/nav/Nav';
+import Footer from './components/footer/Footer';
 
+import About from './views/about/About';
+import Experience from './views/experience/Experience';
+import Services from './views/services/Services';
+import Portfolio from './views/portfolio/Portfolio';
+import Contact from './views/contact/contact';
 
-function App() {
+const App= () => {
   return (
     <>
-    <h1>hello</h1>
+      <Header />
+      <Nav />
+      <About />
+      <Experience />
+      <Services />
+      <Portfolio />
+      <Contact />
+      <Footer />
     </>
   );
 }
