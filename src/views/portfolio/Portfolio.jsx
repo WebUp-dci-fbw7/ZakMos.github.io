@@ -1,5 +1,4 @@
 import React from 'react'
-import P1 from "../../assets/zakaria.png"
 import data from "../../api/data";
 
 
@@ -11,16 +10,16 @@ const Portfolio = () => {
 
       <div className="container portfolio_container">
         {
-          data.map(({id, image, title}) => {
+          data.map(({id, image, title, github, url}) => {
             return (
               <article key={id} className="portfolio_item">
                 <div className="portfolio_item-image">
-                  <img src={P1} alt="p11" />
+                  <img src={image} alt={title} />
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio_item-cta">
-                  <a href="www.google.com" className="btn" target="_blank">Github</a>
-                  <a href="www.google.com" className="btn btn-primary">Live Demo</a>
+                  <a href={github} className="btn" target="_blank" rel="noreferrer">Github</a>
+                  <a href={url} className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
                 </div>
               </article>
             )

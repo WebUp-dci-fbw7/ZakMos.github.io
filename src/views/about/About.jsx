@@ -23,23 +23,31 @@ const About = () => {
             <article className="about_card">
               <FaAward className="about_icon" />
               <h5>Experience</h5>
-              <small>3+ Years working</small>
+              <small>20+ Years working in different fields</small>
             </article>
 
             <article className="about_card">
               <FiUser className="about_icon" />
               <h5>Clients</h5>
-              <small>3+ Years working</small>
+              <small>Right now 5</small>
             </article>
 
             <article className="about_card">
               <VscFolderLibrary className="about_icon" />
               <h5>Projects</h5>
-              <small>3+ Years working</small>
+              <small>30+ Projects</small>
             </article>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sit atque ducimus voluptate nihil cum, obcaecati architecto perferendis iure facilis assumenda accusamus maiores id, eveniet dolore corporis, commodi nobis mollitia?
+          <p>I have graduated from the Digital Career Institute (DCI), Berlin, as a full stack Web Developer, also as a Software Developer (Java)  at ReDI School
+            </p>
+            <p>
+              I have worked on several projects involving HTML5, CSS3, JavaScript, JQuery, React, Redux, NodeJS, express, MongoDB, MySQL, AJAX, Testing Version Control(Git). I have also studied PHP - Laravel, AWS, IOT, Phaser3, Angular and Java, Currently I am looking for new challenges as Junior Full Stack Web Developer.
+            </p>
+            <p >
+              I have more than 16 years experience in IT, Marketing, PR and office fields as Technical coordinator.
+            </p>
+            <p>
+              Creativity, motivation, adopting quickly with job or new environment and learning quickly.
           </p>
 
           <a href="#contact" className="bt"> Let's Talk</a>
