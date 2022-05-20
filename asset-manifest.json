@@ -1,27 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.12d3303a.chunk.css",
-    "main.js": "/static/js/main.72c70cd1.chunk.js",
-    "main.js.map": "/static/js/main.72c70cd1.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.fb5b3a5d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.fb5b3a5d.js.map",
-    "static/css/2.16b651a7.chunk.css": "/static/css/2.16b651a7.chunk.css",
-    "static/js/2.79fd8c92.chunk.js": "/static/js/2.79fd8c92.chunk.js",
-    "static/js/2.79fd8c92.chunk.js.map": "/static/js/2.79fd8c92.chunk.js.map",
+    "main.css": "/static/css/main.66358a8b.css",
+    "main.js": "/static/js/main.5c1ce3e5.js",
+    "static/media/cv.pdf": "/static/media/cv.7e43beabf33aacb38516.pdf",
+    "static/media/mybrary.png": "/static/media/mybrary.7c2b0bd8f6abcec4ae0a.png",
+    "static/media/handyHome.png": "/static/media/handyHome.3ad3d36183050fcfecda.png",
+    "static/media/zakaria.png": "/static/media/zakaria.10fdd59f2d7db8c0f768.png",
+    "static/media/me.png": "/static/media/me.afb3151d9cf20a119254.png",
+    "static/media/covid-19.png": "/static/media/covid-19.2e58a6f7cf117ff2fa54.png",
+    "static/media/Todo.jpg": "/static/media/Todo.57fad92b28bcc6888dd0.jpg",
+    "static/media/I-lost-my-runner.jpg": "/static/media/I-lost-my-runner.ae576e4591a96caecc50.jpg",
+    "static/media/ShoppingCart.jpg": "/static/media/ShoppingCart.80008ffb64a852a0821a.jpg",
+    "static/media/blog.jpg": "/static/media/blog.3072ef9b221fe89e0fea.jpg",
+    "static/media/node_passport_Login.png": "/static/media/node_passport_Login.d0029234e0213a42e937.png",
+    "static/media/Quizzard.jpg": "/static/media/Quizzard.7405bb47342e4fb55c93.jpg",
     "index.html": "/index.html",
-    "static/css/2.16b651a7.chunk.css.map": "/static/css/2.16b651a7.chunk.css.map",
-    "static/css/main.12d3303a.chunk.css.map": "/static/css/main.12d3303a.chunk.css.map",
-    "static/js/2.79fd8c92.chunk.js.LICENSE.txt": "/static/js/2.79fd8c92.chunk.js.LICENSE.txt",
-    "static/media/main.css": "/static/media/arrow-right.f8c07902.png",
-    "static/media/dci03.61cc0e52.jpg": "/static/media/dci03.61cc0e52.jpg",
-    "static/media/dci05.5e73b6cc.jpg": "/static/media/dci05.5e73b6cc.jpg",
-    "static/media/zakaria-pic.73baca2e.jpg": "/static/media/zakaria-pic.73baca2e.jpg"
+    "main.66358a8b.css.map": "/static/css/main.66358a8b.css.map",
+    "main.5c1ce3e5.js.map": "/static/js/main.5c1ce3e5.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.fb5b3a5d.js",
-    "static/css/2.16b651a7.chunk.css",
-    "static/js/2.79fd8c92.chunk.js",
-    "static/css/main.12d3303a.chunk.css",
-    "static/js/main.72c70cd1.chunk.js"
+    "static/css/main.66358a8b.css",
+    "static/js/main.5c1ce3e5.js"
   ]
 }
