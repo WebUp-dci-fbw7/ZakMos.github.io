@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.66358a8b.css",
-    "main.js": "/static/js/main.adcf48ee.js",
+    "main.js": "/static/js/main.c25983fe.js",
     "static/media/cv.pdf": "/static/media/cv.7e43beabf33aacb38516.pdf",
+    "static/media/berlin-coronazentrum.png": "/static/media/berlin-coronazentrum.18addd8130c410d911ed.png",
     "static/media/mybrary.png": "/static/media/mybrary.7c2b0bd8f6abcec4ae0a.png",
     "static/media/handyHome.png": "/static/media/handyHome.3ad3d36183050fcfecda.png",
+    "static/media/corona-schnelltest.png": "/static/media/corona-schnelltest.4ee057d9fe808c2d8a02.png",
     "static/media/zakaria.png": "/static/media/zakaria.10fdd59f2d7db8c0f768.png",
     "static/media/me.png": "/static/media/me.afb3151d9cf20a119254.png",
     "static/media/covid-19.png": "/static/media/covid-19.2e58a6f7cf117ff2fa54.png",
@@ -16,10 +18,10 @@
     "static/media/Quizzard.jpg": "/static/media/Quizzard.7405bb47342e4fb55c93.jpg",
     "index.html": "/index.html",
     "main.66358a8b.css.map": "/static/css/main.66358a8b.css.map",
-    "main.adcf48ee.js.map": "/static/js/main.adcf48ee.js.map"
+    "main.c25983fe.js.map": "/static/js/main.c25983fe.js.map"
   },
   "entrypoints": [
     "static/css/main.66358a8b.css",
-    "static/js/main.adcf48ee.js"
+    "static/js/main.c25983fe.js"
   ]
 }
