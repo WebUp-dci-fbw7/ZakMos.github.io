@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.66358a8b.css",
-    "main.js": "/static/js/main.0f374485.js",
-    "static/media/cv.pdf": "/static/media/cv.a5d0dd0ccd15d9dfc0c3.pdf",
+    "main.js": "/static/js/main.4d3625e3.js",
+    "static/media/cv.pdf": "/static/media/cv.46d7633d51b3a02b5a20.pdf",
     "static/media/alkawakibi.png": "/static/media/alkawakibi.974eea7b6ff5228dc3f6.png",
     "static/media/berlin-coronazentrum.png": "/static/media/berlin-coronazentrum.18addd8130c410d911ed.png",
     "static/media/mybrary.png": "/static/media/mybrary.7c2b0bd8f6abcec4ae0a.png",
@@ -19,10 +19,10 @@
     "static/media/Quizzard.jpg": "/static/media/Quizzard.7405bb47342e4fb55c93.jpg",
     "index.html": "/index.html",
     "main.66358a8b.css.map": "/static/css/main.66358a8b.css.map",
-    "main.0f374485.js.map": "/static/js/main.0f374485.js.map"
+    "main.4d3625e3.js.map": "/static/js/main.4d3625e3.js.map"
   },
   "entrypoints": [
     "static/css/main.66358a8b.css",
-    "static/js/main.0f374485.js"
+    "static/js/main.4d3625e3.js"
   ]
 }
